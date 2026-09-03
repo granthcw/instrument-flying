@@ -1,0 +1,2485 @@
+[
+ {
+  "id": "airspace-and-enroute-charts",
+  "title": "Airspace and En Route Charts",
+  "group": "Foundations",
+  "summary": "What the classes of airspace require of you under IFR, and how to read the low-altitude en route chart you will actually be navigating from.",
+  "acs": [
+   "IR.I.C",
+   "IR.V.B"
+  ],
+  "estMinutes": 25,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "1",
+    "title": "Airspace and airways",
+    "note": "",
+    "startPage": 2,
+    "endPage": 6,
+    "folio": "1-2",
+    "folioEnd": "1-6",
+    "pages": 5,
+    "sections": [
+     {
+      "title": "Airspace Classification",
+      "page": 2
+     },
+     {
+      "title": "Other Routing",
+      "page": 5
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "1",
+    "title": "IFR En Route Charts",
+    "note": "",
+    "startPage": 6,
+    "endPage": 10,
+    "folio": "1-6",
+    "folioEnd": "1-10",
+    "pages": 5,
+    "sections": [
+     {
+      "title": "IFR En Route Charts",
+      "page": 6
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "1",
+    "title": "New Technologies",
+    "note": "",
+    "startPage": 10,
+    "endPage": 12,
+    "folio": "1-10",
+    "folioEnd": "1-12",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "New Technologies",
+      "page": 10
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Class A/B/C/D/E/G boundaries and what each one requires of an IFR flight",
+   "Special use airspace: which types you may transit and which need clearance",
+   "Victor airways, jet routes, and how RNAV routes are designated",
+   "Charted IFR altitudes: MEA, MOCA, MRA, MAA and where each appears",
+   "NAVAID boxes, changeover points, and identifying intersections"
+  ],
+  "pageCount": 13
+ },
+ {
+  "id": "approach-chart-anatomy",
+  "title": "Reading an Approach Chart",
+  "group": "Foundations",
+  "summary": "The five bands of an IAP chart top to bottom. Everything else about approaches assumes you can read this fluently.",
+  "acs": [
+   "IR.VI.A",
+   "IR.VI.B"
+  ],
+  "estMinutes": 35,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "1",
+    "title": "Instrument Approach Procedure Charts",
+    "note": "",
+    "startPage": 12,
+    "endPage": 18,
+    "folio": "1-12",
+    "folioEnd": "1-18",
+    "pages": 7,
+    "sections": [
+     {
+      "title": "Instrument Approach Procedure Charts",
+      "page": 12
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "1",
+    "title": "Terminal Arrival Area (TAA)",
+    "note": "",
+    "startPage": 18,
+    "endPage": 32,
+    "folio": "1-18",
+    "folioEnd": "1-32",
+    "pages": 15,
+    "sections": [
+     {
+      "title": "Terminal Arrival Area (TAA)",
+      "page": 18
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "4",
+    "title": "Instrument Approach Charts",
+    "note": "",
+    "startPage": 9,
+    "endPage": 11,
+    "folio": "4-9",
+    "folioEnd": "4-11",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Instrument Approach Charts",
+      "page": 9
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Margin identification: procedure name, amendment number, airport identifier",
+   "Pilot briefing strip: primary NAVAID frequency, final approach course, TCH, MDA/DA",
+   "Plan view: feeder routes, IAF/IF/FAF, holding, the 10 NM ring",
+   "Profile view: glideslope intercept, step-downs, VDP, missed approach point",
+   "Landing minimums by aircraft category, and the inoperative components table",
+   "Airport sketch and diagram: lighting, runway dimensions, time-to-MAP table"
+  ],
+  "pageCount": 25
+ },
+ {
+  "id": "atc-system",
+  "title": "The ATC System and Communications",
+  "group": "Foundations",
+  "summary": "Which facility owns you at each stage of the flight, and what equipment makes that possible.",
+  "acs": [
+   "IR.III.A"
+  ],
+  "estMinutes": 20,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "2",
+    "title": "Communication Equipment",
+    "note": "",
+    "startPage": 2,
+    "endPage": 4,
+    "folio": "2-2",
+    "folioEnd": "2-4",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Communication Equipment",
+      "page": 2
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "2",
+    "title": "Communication Facilities",
+    "note": "",
+    "startPage": 4,
+    "endPage": 11,
+    "folio": "2-4",
+    "folioEnd": "2-11",
+    "pages": 8,
+    "sections": [
+     {
+      "title": "Communication Facilities",
+      "page": 4
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "2",
+    "title": "Control Sequence",
+    "note": "",
+    "startPage": 13,
+    "endPage": 16,
+    "folio": "2-13",
+    "folioEnd": "2-16",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Control Sequence",
+      "page": 13
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "FSS, tower, TRACON, ARTCC: what each one does and when you talk to them",
+   "Transponder codes and modes, and what ATC radar actually sees",
+   "The handoff sequence from clearance delivery through to the destination tower",
+   "Tower en route control and when it saves you a climb",
+   "Requesting weather avoidance and what ATC radar can and cannot show you"
+  ],
+  "pageCount": 15
+ },
+ {
+  "id": "human-factors-illusions",
+  "title": "Human Factors and Spatial Disorientation",
+  "group": "Foundations",
+  "summary": "Why your body lies to you in cloud, which illusions to expect, and the single reliable fix.",
+  "acs": [
+   "IR.IV.A",
+   "IR.IV.B"
+  ],
+  "estMinutes": 25,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "3",
+    "title": "Sensory Systems for Orientation",
+    "note": "",
+    "startPage": 2,
+    "endPage": 5,
+    "folio": "3-2",
+    "folioEnd": "3-5",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Sensory Systems for Orientation",
+      "page": 2
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "3",
+    "title": "Illusions Leading to Spatial Disorientation",
+    "note": "",
+    "startPage": 5,
+    "endPage": 7,
+    "folio": "3-5",
+    "folioEnd": "3-7",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Illusions Leading to Spatial Disorientation",
+      "page": 5
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "3",
+    "title": "Coping with Spatial Disorientation",
+    "note": "",
+    "startPage": 8,
+    "endPage": 9,
+    "folio": "3-8",
+    "folioEnd": "3-9",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Coping with Spatial Disorientation",
+      "page": 8
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "3",
+    "title": "Optical Illusions",
+    "note": "",
+    "startPage": 9,
+    "endPage": 10,
+    "folio": "3-9",
+    "folioEnd": "3-10",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Optical Illusions",
+      "page": 9
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Why the vestibular system cannot detect a sustained, coordinated turn",
+   "The leans, Coriolis, graveyard spiral, somatogravic and elevator illusions",
+   "Optical illusions on approach: runway width, terrain slope, featureless terrain, haze",
+   "Coping: trust the instruments, get on them early, avoid head movement",
+   "How fatigue and workload make every one of these worse"
+  ],
+  "pageCount": 11
+ },
+ {
+  "id": "aerodynamics-and-icing",
+  "title": "Aerodynamics and Icing",
+  "group": "Foundations",
+  "summary": "Region of reversed command on the approach, and what ice does to an airfoil before you notice it.",
+  "acs": [
+   "IR.I.B",
+   "IR.II.A"
+  ],
+  "estMinutes": 30,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "4",
+    "title": "Drag Curves",
+    "note": "",
+    "startPage": 6,
+    "endPage": 8,
+    "folio": "4-6",
+    "folioEnd": "4-8",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Drag Curves",
+      "page": 6
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "4",
+    "title": "Slow-Speed Flight",
+    "note": "",
+    "startPage": 8,
+    "endPage": 10,
+    "folio": "4-8",
+    "folioEnd": "4-10",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Slow-Speed Flight",
+      "page": 8
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "4",
+    "title": "Turns",
+    "note": "",
+    "startPage": 10,
+    "endPage": 12,
+    "folio": "4-10",
+    "folioEnd": "4-12",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Turns",
+      "page": 10
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "4",
+    "title": "Icing",
+    "note": "",
+    "startPage": 13,
+    "endPage": 18,
+    "folio": "4-13",
+    "folioEnd": "4-18",
+    "pages": 6,
+    "sections": [
+     {
+      "title": "Icing",
+      "page": 13
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Regions of normal and reversed command, and where the approach puts you",
+   "Speed stability: why pitch and power swap roles on the back side",
+   "Rate versus radius of turn, and standard rate at your approach speed",
+   "Clear, rime and mixed ice: conditions that produce each",
+   "Tailplane stall symptoms and why the recovery is opposite to a wing stall",
+   "Induction, propeller, and antenna icing; what each one costs you"
+  ],
+  "pageCount": 15
+ },
+ {
+  "id": "flight-instruments",
+  "title": "Flight Instruments and Failure Modes",
+  "group": "Foundations",
+  "summary": "Pitot-static, gyroscopic and magnetic instruments, and exactly how each one lies when its source fails.",
+  "acs": [
+   "IR.II.B",
+   "IR.II.C"
+  ],
+  "estMinutes": 35,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "5",
+    "title": "Pitot/Static Systems",
+    "note": "",
+    "startPage": 2,
+    "endPage": 3,
+    "folio": "5-2",
+    "folioEnd": "5-3",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Pitot/Static Systems",
+      "page": 2
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "5",
+    "title": "Pitot/Static Instruments",
+    "note": "",
+    "startPage": 3,
+    "endPage": 8,
+    "folio": "5-3",
+    "folioEnd": "5-8",
+    "pages": 6,
+    "sections": [
+     {
+      "title": "Pitot/Static Instruments",
+      "page": 3
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "5",
+    "title": "Magnetism",
+    "note": "",
+    "startPage": 10,
+    "endPage": 16,
+    "folio": "5-10",
+    "folioEnd": "5-16",
+    "pages": 7,
+    "sections": [
+     {
+      "title": "Magnetism",
+      "page": 10
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "5",
+    "title": "Gyroscopic Systems",
+    "note": "",
+    "startPage": 16,
+    "endPage": 19,
+    "folio": "5-16",
+    "folioEnd": "5-19",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Gyroscopic Systems",
+      "page": 16
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "5",
+    "title": "Gyroscopic Instruments",
+    "note": "",
+    "startPage": 19,
+    "endPage": 22,
+    "folio": "5-19",
+    "folioEnd": "5-22",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Gyroscopic Instruments",
+      "page": 19
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Blocked pitot versus blocked static: what each does to ASI, ALT and VSI",
+   "Cold temperature altimeter error and when the correction is mandatory",
+   "Magnetic compass errors: variation, deviation, dip, acceleration and turning",
+   "Vacuum versus electric gyros, and how to spot a dying vacuum pump",
+   "Attitude, heading and turn instruments: precession and normal errors"
+  ],
+  "pageCount": 23
+ },
+ {
+  "id": "efd-and-avionics",
+  "title": "Electronic Flight Displays and Avionics",
+  "group": "Foundations",
+  "summary": "PFD, MFD, AHRS, ADC and the flight director: what feeds what, and what goes red when a sensor quits.",
+  "acs": [
+   "IR.II.B",
+   "IR.II.C"
+  ],
+  "estMinutes": 25,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "5",
+    "title": "Flight Support Systems",
+    "note": "",
+    "startPage": 22,
+    "endPage": 23,
+    "folio": "5-22",
+    "folioEnd": "5-23",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Flight Support Systems",
+      "page": 22
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "5",
+    "title": "Analog Pictorial Displays",
+    "note": "",
+    "startPage": 23,
+    "endPage": 26,
+    "folio": "5-23",
+    "folioEnd": "5-26",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Analog Pictorial Displays",
+      "page": 23
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "5",
+    "title": "Primary Flight Display (PFD)",
+    "note": "",
+    "startPage": 27,
+    "endPage": 28,
+    "folio": "5-27",
+    "folioEnd": "5-28",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Primary Flight Display (PFD)",
+      "page": 27
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "5",
+    "title": "Required Navigation Instrument System Inspection",
+    "note": "",
+    "startPage": 36,
+    "endPage": 38,
+    "folio": "5-36",
+    "folioEnd": "5-38",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Required Navigation Instrument System Inspection",
+      "page": 36
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "AHRS and ADC: which display elements each one drives",
+   "HSI and ADI symbology; what the flight director command bars are telling you",
+   "PFD failure annunciations and the reversionary display mode",
+   "MFD, synthetic vision, and ADS-B traffic and weather",
+   "The instrument flight deck check, start to taxi"
+  ],
+  "pageCount": 11
+ },
+ {
+  "id": "attitude-instrument-flying",
+  "title": "Attitude Instrument Flying",
+  "group": "Flying the Aircraft",
+  "summary": "Control and performance versus primary and supporting, plus the cross-check that ties them together.",
+  "acs": [
+   "IR.IV.A"
+  ],
+  "estMinutes": 35,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "6",
+    "title": "Learning Methods",
+    "note": "Analog instrumentation",
+    "startPage": 2,
+    "endPage": 10,
+    "folio": "6-2",
+    "folioEnd": "6-10",
+    "pages": 9,
+    "sections": [
+     {
+      "title": "Learning Methods",
+      "page": 2
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "6",
+    "title": "Fundamental Skills",
+    "note": "",
+    "startPage": 10,
+    "endPage": 15,
+    "folio": "6-10",
+    "folioEnd": "6-15",
+    "pages": 6,
+    "sections": [
+     {
+      "title": "Fundamental Skills",
+      "page": 10
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "6",
+    "title": "Scanning Techniques",
+    "note": "Electronic flight display",
+    "startPage": 24,
+    "endPage": 27,
+    "folio": "6-24",
+    "folioEnd": "6-27",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Scanning Techniques",
+      "page": 24
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "6",
+    "title": "Common Errors",
+    "note": "",
+    "startPage": 27,
+    "endPage": 28,
+    "folio": "6-27",
+    "folioEnd": "6-28",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Common Errors",
+      "page": 27
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Control and performance: control, performance and navigation instrument groups",
+   "Primary and supporting: which instrument is primary for pitch, bank and power in each regime",
+   "The four-step process for changing attitude",
+   "Selected radial cross-check and how it differs on a PFD",
+   "Fixation, omission and emphasis: recognising your own scan breakdown"
+  ],
+  "pageCount": 21
+ },
+ {
+  "id": "basic-flight-maneuvers",
+  "title": "Basic Instrument Flight Maneuvers",
+  "group": "Flying the Aircraft",
+  "summary": "Straight-and-level, climbs, descents and turns to tolerance, with the common errors named.",
+  "acs": [
+   "IR.IV.A"
+  ],
+  "estMinutes": 40,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "7",
+    "title": "Straight-and-Level Flight",
+    "note": "",
+    "startPage": 2,
+    "endPage": 14,
+    "folio": "7-2",
+    "folioEnd": "7-14",
+    "pages": 13,
+    "sections": [
+     {
+      "title": "Straight-and-Level Flight",
+      "page": 2
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "7",
+    "title": "Straight Climbs and Descents",
+    "note": "",
+    "startPage": 14,
+    "endPage": 19,
+    "folio": "7-14",
+    "folioEnd": "7-19",
+    "pages": 6,
+    "sections": [
+     {
+      "title": "Straight Climbs and Descents",
+      "page": 14
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "7",
+    "title": "Turns",
+    "note": "",
+    "startPage": 19,
+    "endPage": 26,
+    "folio": "7-19",
+    "folioEnd": "7-26",
+    "pages": 8,
+    "sections": [
+     {
+      "title": "Turns",
+      "page": 19
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "7",
+    "title": "Instrument Takeoff",
+    "note": "",
+    "startPage": 29,
+    "endPage": 30,
+    "folio": "7-29",
+    "folioEnd": "7-30",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Instrument Takeoff",
+      "page": 29
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Pitch, bank and power control and the trim technique that makes them hold",
+   "Standard rate turns, timed turns, and turns to predetermined headings",
+   "Compass turns and the lead required north and south",
+   "Steep turns and changing airspeed within a turn",
+   "The instrument takeoff and its common errors",
+   "ACS tolerances: \u00b110 knots, \u00b1100 feet, \u00b110 degrees"
+  ],
+  "pageCount": 29
+ },
+ {
+  "id": "unusual-attitudes",
+  "title": "Unusual Attitudes and Recoveries",
+  "group": "Flying the Aircraft",
+  "summary": "Recognising nose-high and nose-low upsets on instruments, and the correct order of control inputs for each.",
+  "acs": [
+   "IR.IV.B"
+  ],
+  "estMinutes": 20,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "7",
+    "title": "Approach to Stall",
+    "note": "",
+    "startPage": 26,
+    "endPage": 29,
+    "folio": "7-26",
+    "folioEnd": "7-29",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Approach to Stall",
+      "page": 26
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Recognising an unusual attitude from the instrument indications alone",
+   "Nose-high recovery: power, pitch, bank, in that order",
+   "Nose-low recovery: power, bank, pitch, and why the order reverses",
+   "Why you level the wings before pulling",
+   "Common errors, including chasing the attitude indicator"
+  ],
+  "pageCount": 4
+ },
+ {
+  "id": "basic-flight-patterns",
+  "title": "Basic Instrument Flight Patterns",
+  "group": "Flying the Aircraft",
+  "summary": "The racetrack, procedure turn, teardrop and circling patterns as pure flying exercises, before charts are involved.",
+  "acs": [
+   "IR.IV.A",
+   "IR.VI.D"
+  ],
+  "estMinutes": 20,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "7",
+    "title": "Basic Instrument Flight Patterns",
+    "note": "",
+    "startPage": 30,
+    "endPage": 33,
+    "folio": "7-30",
+    "folioEnd": "7-33",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Basic Instrument Flight Patterns",
+      "page": 30
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Racetrack pattern and how it maps onto a hold",
+   "Standard 45 degree procedure turn and the 80/260",
+   "Teardrop pattern geometry",
+   "Circling approach patterns flown as a maneuver"
+  ],
+  "pageCount": 4
+ },
+ {
+  "id": "vor-navigation",
+  "title": "VOR Navigation",
+  "group": "Navigation Systems",
+  "summary": "Tracking, intercepting and the accuracy checks that make a VOR legal for IFR.",
+  "acs": [
+   "IR.V.A"
+  ],
+  "estMinutes": 30,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "9",
+    "title": "Very High Frequency Omnidirectional Range (VOR)",
+    "note": "",
+    "startPage": 8,
+    "endPage": 17,
+    "folio": "9-8",
+    "folioEnd": "9-17",
+    "pages": 10,
+    "sections": [
+     {
+      "title": "Very High Frequency Omnidirectional Range (VOR)",
+      "page": 8
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "2",
+    "title": "NAVAID accuracy checks",
+    "note": "",
+    "startPage": 29,
+    "endPage": 32,
+    "folio": "2-29",
+    "folioEnd": "2-32",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Monitoring of Navigation Facilities",
+      "page": 29
+     },
+     {
+      "title": "RNAV Accuracy Check",
+      "page": 31
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "VOR components, service volumes and line-of-sight limits",
+   "Intercepting and tracking a radial, with and without wind",
+   "Reverse sensing and how to avoid setting it up",
+   "VOT, dual VOR, airborne and ground checkpoint tolerances",
+   "Recording the VOR check: date, place, bearing error, signature"
+  ],
+  "pageCount": 14
+ },
+ {
+  "id": "ndb-and-adf",
+  "title": "NDB and ADF",
+  "group": "Navigation Systems",
+  "summary": "Relative versus magnetic bearing, homing versus tracking, and the errors that make ADF the least forgiving NAVAID.",
+  "acs": [
+   "IR.V.A"
+  ],
+  "estMinutes": 20,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "9",
+    "title": "Basic Radio Principles",
+    "note": "",
+    "startPage": 2,
+    "endPage": 3,
+    "folio": "9-2",
+    "folioEnd": "9-3",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Basic Radio Principles",
+      "page": 2
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "9",
+    "title": "Nondirectional Radio Beacon (NDB)",
+    "note": "",
+    "startPage": 3,
+    "endPage": 8,
+    "folio": "9-3",
+    "folioEnd": "9-8",
+    "pages": 6,
+    "sections": [
+     {
+      "title": "Nondirectional Radio Beacon (NDB)",
+      "page": 3
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Relative bearing, magnetic heading and magnetic bearing to the station",
+   "Homing versus tracking, and why homing gives you a curved path",
+   "Determining wind correction angle from bearing drift",
+   "Operational errors: night effect, terrain, thunderstorm and shoreline effect",
+   "When GPS may be substituted for ADF"
+  ],
+  "pageCount": 8
+ },
+ {
+  "id": "dme-and-arcs",
+  "title": "DME and DME Arcs",
+  "group": "Navigation Systems",
+  "summary": "Slant range error and the technique for flying an arc to tolerance.",
+  "acs": [
+   "IR.V.A"
+  ],
+  "estMinutes": 15,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "9",
+    "title": "Distance Measuring Equipment (DME)",
+    "note": "",
+    "startPage": 17,
+    "endPage": 22,
+    "folio": "9-17",
+    "folioEnd": "9-22",
+    "pages": 6,
+    "sections": [
+     {
+      "title": "Distance Measuring Equipment (DME)",
+      "page": 17
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Slant range error and where it is largest",
+   "DME components, and identifying the DME separately from the VOR",
+   "Flying an arc with the 10 degree turn-and-twist technique",
+   "Lead radial and rolling out on the inbound course",
+   "GPS substitution for DME"
+  ],
+  "pageCount": 6
+ },
+ {
+  "id": "rnav-gps-and-waas",
+  "title": "RNAV, GPS and WAAS",
+  "group": "Navigation Systems",
+  "summary": "How the receiver knows where it is, what RAIM protects you from, and what WAAS adds.",
+  "acs": [
+   "IR.V.A",
+   "IR.V.B"
+  ],
+  "estMinutes": 35,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "9",
+    "title": "Area Navigation (RNAV)",
+    "note": "",
+    "startPage": 22,
+    "endPage": 24,
+    "folio": "9-22",
+    "folioEnd": "9-24",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Area Navigation (RNAV)",
+      "page": 22
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "9",
+    "title": "Advanced Technologies",
+    "note": "",
+    "startPage": 24,
+    "endPage": 35,
+    "folio": "9-24",
+    "folioEnd": "9-35",
+    "pages": 12,
+    "sections": [
+     {
+      "title": "Advanced Technologies",
+      "page": 24
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "9",
+    "title": "Required Navigation Performance",
+    "note": "",
+    "startPage": 44,
+    "endPage": 46,
+    "folio": "9-44",
+    "folioEnd": "9-46",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Required Navigation Performance",
+      "page": 44
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "GPS segments, and why four satellites are needed for a 3D fix",
+   "RAIM: what it detects, what it needs, and what happens when it is lost",
+   "WAAS and how it enables LPV minimums",
+   "RNP and containment: what an RNP value actually promises",
+   "Database currency requirements for IFR use"
+  ],
+  "pageCount": 18
+ },
+ {
+  "id": "navigation-databases",
+  "title": "Airborne Navigation Databases",
+  "group": "Navigation Systems",
+  "summary": "What is actually in the box, why it sometimes disagrees with the chart, and what you may and may not modify.",
+  "acs": [
+   "IR.V.B"
+  ],
+  "estMinutes": 20,
+  "readings": [
+   {
+    "doc": "iph",
+    "chapter": "6",
+    "title": "Introduction",
+    "note": "",
+    "startPage": 1,
+    "endPage": 3,
+    "folio": "6-1",
+    "folioEnd": "6-3",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Introduction",
+      "page": 1
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Where database content comes from and the 28-day cycle",
+   "Path terminators and why a coded procedure can surprise you",
+   "Waypoint naming, fly-over versus fly-by",
+   "Which parts of a procedure you may not edit",
+   "Cross-checking the loaded procedure against the chart"
+  ],
+  "pageCount": 3
+ },
+ {
+  "id": "ils-and-approach-systems",
+  "title": "ILS and Ground-Based Approach Systems",
+  "group": "Navigation Systems",
+  "summary": "Localizer, glideslope, marker beacons and lighting, plus the false-glideslope and interference traps.",
+  "acs": [
+   "IR.VI.B"
+  ],
+  "estMinutes": 30,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "9",
+    "title": "Instrument Approach Systems",
+    "note": "",
+    "startPage": 35,
+    "endPage": 44,
+    "folio": "9-35",
+    "folioEnd": "9-44",
+    "pages": 10,
+    "sections": [
+     {
+      "title": "Instrument Approach Systems",
+      "page": 35
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "9",
+    "title": "Required Navigation Performance",
+    "note": "",
+    "startPage": 44,
+    "endPage": 46,
+    "folio": "9-44",
+    "folioEnd": "9-46",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Required Navigation Performance",
+      "page": 44
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Localizer and glideslope geometry, course width and sensitivity",
+   "Marker beacons and compass locators; approach lighting systems",
+   "False glideslopes and why you never intercept from above",
+   "ILS critical areas and the interference they cause",
+   "SDF and LDA: how each differs from a localizer"
+  ],
+  "pageCount": 13
+ },
+ {
+  "id": "atc-clearances",
+  "title": "ATC Clearances",
+  "group": "Clearances and Departures",
+  "summary": "Copying, reading back and complying, including what to do when the clearance exceeds the aircraft or your comfort.",
+  "acs": [
+   "IR.III.A"
+  ],
+  "estMinutes": 20,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Clearances",
+    "note": "",
+    "startPage": 3,
+    "endPage": 5,
+    "folio": "10-3",
+    "folioEnd": "10-5",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Clearances",
+      "page": 3
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "A",
+    "title": "Clearance shorthand",
+    "note": "",
+    "startPage": 1,
+    "endPage": 2,
+    "folio": "A-1",
+    "folioEnd": "A-2",
+    "pages": 2,
+    "sections": []
+   }
+  ],
+  "checkpoints": [
+   "The elements of a clearance in the order they are issued",
+   "CRAFT, and a shorthand you can actually read back",
+   "Clearance limits, void times, and release times",
+   "Amended clearances and when you must query rather than comply",
+   "PIC emergency authority and deviating from a clearance"
+  ],
+  "pageCount": 5
+ },
+ {
+  "id": "departure-procedures",
+  "title": "Departure Procedures",
+  "group": "Clearances and Departures",
+  "summary": "ODPs, SIDs and radar vectors, plus the climb gradient arithmetic that decides whether you can accept one.",
+  "acs": [
+   "IR.V.B"
+  ],
+  "estMinutes": 40,
+  "readings": [
+   {
+    "doc": "iph",
+    "chapter": "1",
+    "title": "Departure Procedures",
+    "note": "Design criteria and obstacle clearance",
+    "startPage": 1,
+    "endPage": 2,
+    "folio": "1-1",
+    "folioEnd": "1-2",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Departure Procedures",
+      "page": 1
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "1",
+    "title": "Categories of Departure Procedures",
+    "note": "",
+    "startPage": 23,
+    "endPage": 43,
+    "folio": "1-23",
+    "folioEnd": "1-43",
+    "pages": 21,
+    "sections": [
+     {
+      "title": "Categories of Departure Procedures",
+      "page": 23
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Departure Procedures (DPs)",
+    "note": "",
+    "startPage": 5,
+    "endPage": 7,
+    "folio": "10-5",
+    "folioEnd": "10-7",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Departure Procedures (DPs)",
+      "page": 5
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "The 40:1 obstacle clearance surface and the standard 200 ft/NM climb gradient",
+   "Converting a climb gradient in ft/NM to a rate of climb in ft/min at your groundspeed",
+   "ODP versus SID: who they protect and who must fly them",
+   "Low, close-in obstacles and why they are not a gradient requirement",
+   "RNAV departures, transition routes, and SID altitude constraints",
+   "Diverse vector areas, VCOA, and departures from non-towered airports"
+  ],
+  "pageCount": 26
+ },
+ {
+  "id": "takeoff-minimums-and-alternates",
+  "title": "Takeoff Minimums and Alternates",
+  "group": "Clearances and Departures",
+  "summary": "The 1-2-3 rule, standard and non-standard alternate minimums, and how visibility is actually reported.",
+  "acs": [
+   "IR.I.C"
+  ],
+  "estMinutes": 30,
+  "readings": [
+   {
+    "doc": "iph",
+    "chapter": "1",
+    "title": "Weather and the Departure Environment",
+    "note": "",
+    "startPage": 8,
+    "endPage": 12,
+    "folio": "1-8",
+    "folioEnd": "1-12",
+    "pages": 5,
+    "sections": [
+     {
+      "title": "Weather and the Departure Environment",
+      "page": 8
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "1",
+    "title": "Automated Weather Systems",
+    "note": "",
+    "startPage": 12,
+    "endPage": 16,
+    "folio": "1-12",
+    "folioEnd": "1-16",
+    "pages": 5,
+    "sections": [
+     {
+      "title": "Automated Weather Systems",
+      "page": 12
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Takeoff minimums: who they bind, and what applies to Part 91",
+   "Prevailing visibility, RVV, tower visibility and RVR",
+   "The 1-2-3 rule for filing an alternate",
+   "Standard alternate minimums, and reading the non-standard alternate symbol",
+   "Ceilings, and what an automated station can and cannot report"
+  ],
+  "pageCount": 10
+ },
+ {
+  "id": "enroute-procedures",
+  "title": "En Route Procedures and Reports",
+  "group": "En Route",
+  "summary": "Airways, direct routing, and the reports you owe ATC without being asked.",
+  "acs": [
+   "IR.V.B"
+  ],
+  "estMinutes": 30,
+  "readings": [
+   {
+    "doc": "iph",
+    "chapter": "2",
+    "title": "Airway and Route System",
+    "note": "",
+    "startPage": 13,
+    "endPage": 32,
+    "folio": "2-13",
+    "folioEnd": "2-32",
+    "pages": 20,
+    "sections": [
+     {
+      "title": "Airway and Route System",
+      "page": 13
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "2",
+    "title": "En Route Reporting Procedures",
+    "note": "",
+    "startPage": 46,
+    "endPage": 47,
+    "folio": "2-46",
+    "folioEnd": "2-47",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "En Route Reporting Procedures",
+      "page": 46
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "En Route Procedures",
+    "note": "",
+    "startPage": 7,
+    "endPage": 10,
+    "folio": "10-7",
+    "folioEnd": "10-10",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "En Route Procedures",
+      "page": 7
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Victor airways, primary and secondary obstacle clearance areas, changeover points",
+   "Direct and random RNAV routes, and off-airway routing",
+   "The mandatory reports that do not require an ATC request",
+   "Position report items in order",
+   "Navigational gaps and monitoring NAVAID status"
+  ],
+  "pageCount": 26
+ },
+ {
+  "id": "enroute-altitudes",
+  "title": "En Route Altitudes",
+  "group": "En Route",
+  "summary": "MEA, MOCA, MRA, MAA, MCA, MVA, OROCA \u2014 which one protects what, and which ones you may descend to.",
+  "acs": [
+   "IR.V.B"
+  ],
+  "estMinutes": 25,
+  "readings": [
+   {
+    "doc": "iph",
+    "chapter": "2",
+    "title": "IFR En Route Altitudes",
+    "note": "",
+    "startPage": 35,
+    "endPage": 46,
+    "folio": "2-35",
+    "folioEnd": "2-46",
+    "pages": 12,
+    "sections": [
+     {
+      "title": "IFR En Route Altitudes",
+      "page": 35
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "2",
+    "title": "Off-Route Obstruction Clearance Altitude",
+    "note": "",
+    "startPage": 27,
+    "endPage": 29,
+    "folio": "2-27",
+    "folioEnd": "2-29",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Off-Route Obstruction Clearance Altitude",
+      "page": 27
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "MEA: obstacle clearance plus navigation signal coverage",
+   "MOCA and the 22 NM signal caveat",
+   "MRA, MAA, MCA and minimum turning altitude",
+   "MVA and MIA: ATC's altitudes, not charted for you",
+   "OROCA and what it does not guarantee",
+   "IFR cruising altitudes and cruise clearances"
+  ],
+  "pageCount": 15
+ },
+ {
+  "id": "holding-patterns",
+  "title": "Holding Patterns",
+  "group": "En Route",
+  "summary": "Entry, timing, wind correction and speeds. The geometry is simple; the ACS tolerances and the reporting are what get missed.",
+  "acs": [
+   "IR.III.B"
+  ],
+  "estMinutes": 35,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Holding Procedures",
+    "note": "",
+    "startPage": 10,
+    "endPage": 13,
+    "folio": "10-10",
+    "folioEnd": "10-13",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Holding Procedures",
+      "page": 10
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "2",
+    "title": "En Route Holding Procedures",
+    "note": "",
+    "startPage": 51,
+    "endPage": 52,
+    "folio": "2-51",
+    "folioEnd": "2-52",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "En Route Holding Procedures",
+      "page": 51
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "1",
+    "title": "Course Reversal Elements in Plan View and Profile View",
+    "note": "Holding in lieu of procedure turn, as charted",
+    "startPage": 20,
+    "endPage": 23,
+    "folio": "1-20",
+    "folioEnd": "1-23",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Course Reversal Elements in Plan View and Profile View",
+      "page": 20
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Standard pattern is right turns; nonstandard left turns are always stated in the clearance",
+   "The six elements of a holding clearance, including EFC",
+   "Parallel, teardrop and direct entry sectors, and the 70 degree dividing line",
+   "Outbound timing: 1 minute at or below 14,000 ft MSL, 1.5 minutes above",
+   "Maximum holding speeds: 200 KIAS to 6,000 ft, 230 to 14,000, 265 above",
+   "Begin the speed reduction within 3 minutes of the fix",
+   "Wind correction: drift correction on both legs, and adjusting outbound time",
+   "Turns at 3 degrees per second or 30 degrees of bank, whichever is less",
+   "DME and RNAV holding by leg length rather than time",
+   "What to report entering and leaving, and recalculating fuel against a new EFC"
+  ],
+  "pageCount": 10
+ },
+ {
+  "id": "arrivals-and-stars",
+  "title": "Arrivals and STARs",
+  "group": "En Route",
+  "summary": "Descent planning, STAR constraints, and the transition from en route to the approach environment.",
+  "acs": [
+   "IR.V.B"
+  ],
+  "estMinutes": 30,
+  "readings": [
+   {
+    "doc": "iph",
+    "chapter": "3",
+    "title": "Navigation in the Arrival Environment",
+    "note": "",
+    "startPage": 2,
+    "endPage": 10,
+    "folio": "3-2",
+    "folioEnd": "3-10",
+    "pages": 9,
+    "sections": [
+     {
+      "title": "Navigation in the Arrival Environment",
+      "page": 2
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "3",
+    "title": "Standard Terminal Arrival Routes (STARs)",
+    "note": "",
+    "startPage": 10,
+    "endPage": 16,
+    "folio": "3-10",
+    "folioEnd": "3-16",
+    "pages": 7,
+    "sections": [
+     {
+      "title": "Standard Terminal Arrival Routes (STARs)",
+      "page": 10
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "3",
+    "title": "Preparing for the Arrival",
+    "note": "",
+    "startPage": 16,
+    "endPage": 26,
+    "folio": "3-16",
+    "folioEnd": "3-26",
+    "pages": 11,
+    "sections": [
+     {
+      "title": "Preparing for the Arrival",
+      "page": 16
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Planning the Descent and Approach",
+    "note": "",
+    "startPage": 8,
+    "endPage": 9,
+    "folio": "10-8",
+    "folioEnd": "10-9",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Planning the Descent and Approach",
+      "page": 8
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Computing top of descent from altitude to lose and descent rate",
+   "Reading a STAR: transitions, crossing restrictions, expect altitudes",
+   "Descend via versus descend and maintain",
+   "Speed constraints and when they still apply after an altitude change",
+   "Setting up the aircraft and the brief before the approach begins"
+  ],
+  "pageCount": 29
+ },
+ {
+  "id": "approach-planning",
+  "title": "Approach Planning and the Brief",
+  "group": "Approaches",
+  "summary": "Everything that happens before the final approach fix: weather, performance, equipment and the briefing itself.",
+  "acs": [
+   "IR.VI.A",
+   "IR.VI.B"
+  ],
+  "estMinutes": 35,
+  "readings": [
+   {
+    "doc": "iph",
+    "chapter": "4",
+    "title": "Approach Planning",
+    "note": "",
+    "startPage": 2,
+    "endPage": 7,
+    "folio": "4-2",
+    "folioEnd": "4-7",
+    "pages": 6,
+    "sections": [
+     {
+      "title": "Approach Planning",
+      "page": 2
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "4",
+    "title": "Aircraft Performance Considerations",
+    "note": "",
+    "startPage": 7,
+    "endPage": 9,
+    "folio": "4-7",
+    "folioEnd": "4-9",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Aircraft Performance Considerations",
+      "page": 7
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "4",
+    "title": "Instrument Approach Procedure (IAP) Briefing",
+    "note": "",
+    "startPage": 35,
+    "endPage": 37,
+    "folio": "4-35",
+    "folioEnd": "4-37",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Instrument Approach Procedure (IAP) Briefing",
+      "page": 35
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Aircraft approach categories and the speed that defines yours",
+   "Choosing the approach: weather, equipment, runway, and what ATC is using",
+   "Primary NAVAID and equipment requirements for the procedure",
+   "The briefing in order, ending with the missed approach",
+   "Courses, altitudes and the minimums line you will actually use"
+  ],
+  "pageCount": 12
+ },
+ {
+  "id": "nonprecision-approaches",
+  "title": "Nonprecision Approaches",
+  "group": "Approaches",
+  "summary": "Step-downs, MDA and the visual descent point. The hard parts are the descent profile and knowing exactly where the MAP is.",
+  "acs": [
+   "IR.VI.A"
+  ],
+  "estMinutes": 40,
+  "readings": [
+   {
+    "doc": "iph",
+    "chapter": "4",
+    "title": "Descent rates and glidepaths",
+    "note": "",
+    "startPage": 37,
+    "endPage": 54,
+    "folio": "4-37",
+    "folioEnd": "4-54",
+    "pages": 18,
+    "sections": [
+     {
+      "title": "Descents",
+      "page": 37
+     },
+     {
+      "title": "Descent Rates and Glidepaths for Nonprecision Approaches",
+      "page": 37
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "4",
+    "title": "Types of Approaches",
+    "note": "",
+    "startPage": 54,
+    "endPage": 60,
+    "folio": "4-54",
+    "folioEnd": "4-60",
+    "pages": 7,
+    "sections": [
+     {
+      "title": "Types of Approaches",
+      "page": 54
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Instrument Approaches to Civil Airports",
+    "note": "",
+    "startPage": 13,
+    "endPage": 15,
+    "folio": "10-13",
+    "folioEnd": "10-15",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Instrument Approaches to Civil Airports",
+      "page": 13
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "MDA versus DA, and why you never descend below MDA without the required visual reference",
+   "Dive and drive against a stabilised constant-angle descent",
+   "Computing a descent rate from groundspeed and required glidepath angle",
+   "Step-down fixes and honouring every one of them",
+   "Identifying the missed approach point by time, fix or DME",
+   "Visual descent point, and why it is not always charted",
+   "The 91.175 requirements for continuing below MDA"
+  ],
+  "pageCount": 28
+ },
+ {
+  "id": "precision-approaches",
+  "title": "Precision Approaches",
+  "group": "Approaches",
+  "summary": "Flying the ILS to DA: intercepting the glideslope correctly and holding one-dot tolerances.",
+  "acs": [
+   "IR.VI.B"
+  ],
+  "estMinutes": 35,
+  "readings": [
+   {
+    "doc": "iph",
+    "chapter": "4",
+    "title": "Vertical Navigation",
+    "note": "",
+    "startPage": 23,
+    "endPage": 35,
+    "folio": "4-23",
+    "folioEnd": "4-35",
+    "pages": 13,
+    "sections": [
+     {
+      "title": "Vertical Navigation",
+      "page": 23
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "9",
+    "title": "Instrument Landing Systems (ILS)",
+    "note": "",
+    "startPage": 35,
+    "endPage": 38,
+    "folio": "9-35",
+    "folioEnd": "9-38",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Instrument Landing Systems (ILS)",
+      "page": 35
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "9",
+    "title": "ILS Errors",
+    "note": "",
+    "startPage": 40,
+    "endPage": 42,
+    "folio": "9-40",
+    "folioEnd": "9-42",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "ILS Errors",
+      "page": 40
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Intercepting the localizer, then the glideslope from below at glideslope intercept altitude",
+   "Decision altitude and the go-around decision made at, not below, DA",
+   "Holding localizer and glideslope within one dot, and the ACS tolerance",
+   "Configuration and power settings that produce a stable 3 degree path",
+   "ILS errors, false courses, and interference from ground vehicles",
+   "Categories I, II and III and what each requires"
+  ],
+  "pageCount": 20
+ },
+ {
+  "id": "rnav-approaches",
+  "title": "RNAV and GPS Approaches",
+  "group": "Approaches",
+  "summary": "LNAV, LNAV/VNAV, LPV and LP: what your equipment entitles you to, and which line you are actually flying.",
+  "acs": [
+   "IR.VI.A",
+   "IR.VI.B"
+  ],
+  "estMinutes": 35,
+  "readings": [
+   {
+    "doc": "iph",
+    "chapter": "4",
+    "title": "RNAV Approach Types",
+    "note": "",
+    "startPage": 60,
+    "endPage": 92,
+    "folio": "4-60",
+    "folioEnd": "4-92",
+    "pages": 33,
+    "sections": [
+     {
+      "title": "RNAV Approach Types",
+      "page": 60
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "1",
+    "title": "RNAV Instrument Approach Charts",
+    "note": "",
+    "startPage": 30,
+    "endPage": 32,
+    "folio": "1-30",
+    "folioEnd": "1-32",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "RNAV Instrument Approach Charts",
+      "page": 30
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "LNAV, LNAV/VNAV, LP and LPV: equipment needed and minimums produced",
+   "Which of those give a DA and which give an MDA",
+   "Baro-VNAV temperature limits",
+   "Terminal arrival areas and the RNAV chart layout",
+   "Confirming the annunciated mode before the final approach fix",
+   "What to do when the receiver downgrades on final"
+  ],
+  "pageCount": 36
+ },
+ {
+  "id": "missed-approach",
+  "title": "Missed Approach",
+  "group": "Approaches",
+  "summary": "The decision, the first three actions, and flying the published track when you are busiest.",
+  "acs": [
+   "IR.VI.C"
+  ],
+  "estMinutes": 25,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Missed Approaches",
+    "note": "",
+    "startPage": 21,
+    "endPage": 22,
+    "folio": "10-21",
+    "folioEnd": "10-22",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Missed Approaches",
+      "page": 21
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "4",
+    "title": "Missed Approach",
+    "note": "Design and obstacle protection",
+    "startPage": 39,
+    "endPage": 42,
+    "folio": "4-39",
+    "folioEnd": "4-42",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Missed Approach",
+      "page": 39
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Deciding at DA or the MAP, and not one foot lower",
+   "Climb, configure, navigate: the order of actions",
+   "Flying the published missed track, including the climb-to altitude before turning",
+   "Going missed early: continuing to the MAP before turning",
+   "Reporting the missed approach and requesting your intentions",
+   "Circling missed: turning toward the airport to establish on the missed track"
+  ],
+  "pageCount": 6
+ },
+ {
+  "id": "circling-approach",
+  "title": "Circling Approaches",
+  "group": "Approaches",
+  "summary": "The least protected maneuver in the ACS: circling minimums, obstacle protection radius, and the missed from circling.",
+  "acs": [
+   "IR.VI.D"
+  ],
+  "estMinutes": 25,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Circling Approaches",
+    "note": "",
+    "startPage": 20,
+    "endPage": 21,
+    "folio": "10-20",
+    "folioEnd": "10-21",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Circling Approaches",
+      "page": 20
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "7",
+    "title": "Circling Approach Patterns",
+    "note": "",
+    "startPage": 32,
+    "endPage": 33,
+    "folio": "7-32",
+    "folioEnd": "7-33",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Circling Approach Patterns",
+      "page": 32
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "1",
+    "title": "Landing Minimums",
+    "note": "Circling minimums and the negative-C symbol",
+    "startPage": 23,
+    "endPage": 27,
+    "folio": "1-23",
+    "folioEnd": "1-27",
+    "pages": 5,
+    "sections": [
+     {
+      "title": "Landing Minimums",
+      "page": 23
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Circling minimums by category and the visibility required",
+   "Remaining within the protected radius for your category",
+   "Keeping the runway environment in sight, and what counts as in sight",
+   "The negative-C symbol and restricted circling areas",
+   "The missed approach from circling: climbing turn toward the airport",
+   "Why a circling approach at night deserves extra scrutiny"
+  ],
+  "pageCount": 9
+ },
+ {
+  "id": "landing-from-an-approach",
+  "title": "Landing from an Instrument Approach",
+  "group": "Approaches",
+  "summary": "The 91.175 visual requirements, the transition to visual, and the landing itself.",
+  "acs": [
+   "IR.VI.E"
+  ],
+  "estMinutes": 20,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Landing",
+    "note": "",
+    "startPage": 22,
+    "endPage": 26,
+    "folio": "10-22",
+    "folioEnd": "10-26",
+    "pages": 5,
+    "sections": [
+     {
+      "title": "Landing",
+      "page": 22
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "1",
+    "title": "Inoperative Components",
+    "note": "",
+    "startPage": 27,
+    "endPage": 30,
+    "folio": "1-27",
+    "folioEnd": "1-30",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Inoperative Components",
+      "page": 27
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "9",
+    "title": "Approach Lighting Systems (ALS)",
+    "note": "",
+    "startPage": 38,
+    "endPage": 40,
+    "folio": "9-38",
+    "folioEnd": "9-40",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Approach Lighting Systems (ALS)",
+      "page": 38
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "The 91.175(c) list of visual references permitting descent below DA or MDA",
+   "Descending below 100 feet above TDZE on approach lights alone",
+   "Approach lighting systems and identifying them from the chart",
+   "The inoperative components table and adjusting your minimums",
+   "Transitioning from instruments to visual without losing the profile"
+  ],
+  "pageCount": 12
+ },
+ {
+  "id": "radar-approaches",
+  "title": "Radar Approaches and Vectors",
+  "group": "Approaches",
+  "summary": "ASR and PAR approaches, vectors to final, and what a PRM monitor expects of you.",
+  "acs": [
+   "IR.VI.A"
+  ],
+  "estMinutes": 20,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Radar Approaches",
+    "note": "",
+    "startPage": 15,
+    "endPage": 18,
+    "folio": "10-15",
+    "folioEnd": "10-18",
+    "pages": 4,
+    "sections": [
+     {
+      "title": "Radar Approaches",
+      "page": 15
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Radar Monitoring of Instrument Approaches",
+    "note": "",
+    "startPage": 18,
+    "endPage": 20,
+    "folio": "10-18",
+    "folioEnd": "10-20",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Radar Monitoring of Instrument Approaches",
+      "page": 18
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Approaches to Parallel Runways",
+    "note": "",
+    "startPage": 20,
+    "endPage": 21,
+    "folio": "10-20",
+    "folioEnd": "10-21",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Approaches to Parallel Runways",
+      "page": 20
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "ASR versus PAR: what the controller provides in each",
+   "Lost communication procedures during a radar approach",
+   "Vectors to final and the intercept angle you should expect",
+   "Parallel, simultaneous and PRM operations, and the breakout instruction",
+   "The side-step maneuver"
+  ],
+  "pageCount": 9
+ },
+ {
+  "id": "ifr-weather",
+  "title": "IFR Weather and Flight Planning",
+  "group": "Weather and Judgment",
+  "summary": "Reading the weather for an actual IFR flight, and the go/no-go call that follows.",
+  "acs": [
+   "IR.I.B",
+   "IR.I.C"
+  ],
+  "estMinutes": 35,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Sources of Flight Planning Information",
+    "note": "",
+    "startPage": 2,
+    "endPage": 3,
+    "folio": "10-2",
+    "folioEnd": "10-3",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Sources of Flight Planning Information",
+      "page": 2
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Instrument Weather Flying",
+    "note": "",
+    "startPage": 22,
+    "endPage": 26,
+    "folio": "10-22",
+    "folioEnd": "10-26",
+    "pages": 5,
+    "sections": [
+     {
+      "title": "Instrument Weather Flying",
+      "page": 22
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Building the weather picture: synopsis, then conditions, then trend",
+   "Thunderstorms, turbulence and icing: the conditions that make you cancel",
+   "VFR-on-top and VFR over-the-top: the difference and the requirements",
+   "Filing, amending in flight, and cancelling IFR",
+   "Fuel planning against the destination, alternate and reserve"
+  ],
+  "pageCount": 7
+ },
+ {
+  "id": "conducting-an-ifr-flight",
+  "title": "Conducting an IFR Flight",
+  "group": "Weather and Judgment",
+  "summary": "The whole flight end to end, worked as one example. Good for the night before a long cross-country lesson.",
+  "acs": [
+   "IR.I.C",
+   "IR.V.B"
+  ],
+  "estMinutes": 30,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Conducting an IFR Flight",
+    "note": "",
+    "startPage": 26,
+    "endPage": 34,
+    "folio": "10-26",
+    "folioEnd": "10-34",
+    "pages": 9,
+    "sections": [
+     {
+      "title": "Conducting an IFR Flight",
+      "page": 26
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Preflight: route selection, altitude, fuel and alternate",
+   "Departure: clearance, taxi, and the first en route segment",
+   "En route: position awareness, reports, and amended clearances",
+   "Arrival: descent planning, the approach brief, and the approach",
+   "What changes if the destination goes below minimums en route"
+  ],
+  "pageCount": 9
+ },
+ {
+  "id": "lost-communications",
+  "title": "Lost Communications",
+  "group": "Emergencies",
+  "summary": "Route and altitude when the radios quit, and when to leave the clearance limit.",
+  "acs": [
+   "IR.VII.A"
+  ],
+  "estMinutes": 20,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "11",
+    "title": "Communication/Navigation System Malfunction",
+    "note": "",
+    "startPage": 8,
+    "endPage": 9,
+    "folio": "11-8",
+    "folioEnd": "11-9",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Communication/Navigation System Malfunction",
+      "page": 8
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "2",
+    "title": "Communication Failure",
+    "note": "",
+    "startPage": 47,
+    "endPage": 48,
+    "folio": "2-47",
+    "folioEnd": "2-48",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Communication Failure",
+      "page": 47
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Route: assigned, vectored, expected, filed",
+   "Altitude: the highest of assigned, minimum en route, or expected",
+   "When to leave the clearance limit and begin the approach",
+   "Squawking 7600 and what ATC does in response",
+   "Continuing VFR if conditions allow"
+  ],
+  "pageCount": 4
+ },
+ {
+  "id": "partial-panel",
+  "title": "Partial Panel and Instrument Failure",
+  "group": "Emergencies",
+  "summary": "Recognising which instrument failed, and flying the aircraft on what is left.",
+  "acs": [
+   "IR.VII.D"
+  ],
+  "estMinutes": 30,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "11",
+    "title": "Analog instrument and pitot/static failure",
+    "note": "",
+    "startPage": 7,
+    "endPage": 9,
+    "folio": "11-7",
+    "folioEnd": "11-9",
+    "pages": 3,
+    "sections": [
+     {
+      "title": "Analog Instrument Failure",
+      "page": 7
+     },
+     {
+      "title": "Pitot/Static System Failure",
+      "page": 8
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "11",
+    "title": "Electronic Flight Display Malfunction",
+    "note": "Includes alternator failure and electrical load shedding",
+    "startPage": 4,
+    "endPage": 5,
+    "folio": "11-4",
+    "folioEnd": "11-5",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Electronic Flight Display Malfunction",
+      "page": 4
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Detecting a failed instrument by cross-check rather than by annunciation",
+   "Partial panel with a failed attitude indicator: using turn rate and airspeed",
+   "Compass turns and timed turns without a heading indicator",
+   "Electrical and vacuum failure: what you lose in each case",
+   "Telling ATC early, and asking for the approach that suits your remaining equipment"
+  ],
+  "pageCount": 5
+ },
+ {
+  "id": "engine-out-ifr",
+  "title": "Engine Failure in IMC",
+  "group": "Emergencies",
+  "summary": "Single-engine and multi-engine failures under instrument conditions, and the approach that follows.",
+  "acs": [
+   "IR.VII.B",
+   "IR.VII.C"
+  ],
+  "estMinutes": 25,
+  "readings": [
+   {
+    "doc": "iph",
+    "chapter": "A",
+    "title": "Emergency procedures",
+    "note": "",
+    "startPage": 1,
+    "endPage": 5,
+    "folio": "A-1",
+    "folioEnd": "A-5",
+    "pages": 5,
+    "sections": [
+     {
+      "title": "Emergency Procedures",
+      "page": 1
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "11",
+    "title": "Aircraft System Malfunctions",
+    "note": "System failures that accompany an engine problem",
+    "startPage": 3,
+    "endPage": 7,
+    "folio": "11-3",
+    "folioEnd": "11-7",
+    "pages": 5,
+    "sections": [
+     {
+      "title": "Aircraft System Malfunctions",
+      "page": 3
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "Identify, verify, feather: the multi-engine drill under the hood",
+   "Vmc and why altitude and configuration change the picture",
+   "Single-engine performance and the drift-down altitude",
+   "Flying an approach with an engine inoperative, including the configuration point",
+   "Declaring, and what to ask ATC for"
+  ],
+  "pageCount": 10
+ },
+ {
+  "id": "postflight-and-currency",
+  "title": "Postflight, Currency and Proficiency",
+  "group": "Emergencies",
+  "summary": "The instrument currency rules and the checks that keep the aircraft legal for IFR.",
+  "acs": [
+   "IR.VIII.A",
+   "IR.I.A"
+  ],
+  "estMinutes": 15,
+  "readings": [
+   {
+    "doc": "ifh",
+    "chapter": "5",
+    "title": "Systems Preflight Procedures",
+    "note": "",
+    "startPage": 36,
+    "endPage": 37,
+    "folio": "5-36",
+    "folioEnd": "5-37",
+    "pages": 2,
+    "sections": [
+     {
+      "title": "Systems Preflight Procedures",
+      "page": 36
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "10",
+    "title": "Preflight",
+    "note": "",
+    "startPage": 26,
+    "endPage": 31,
+    "folio": "10-26",
+    "folioEnd": "10-31",
+    "pages": 6,
+    "sections": [
+     {
+      "title": "Preflight",
+      "page": 26
+     }
+    ]
+   }
+  ],
+  "checkpoints": [
+   "The 6 approaches, holding, and intercepting/tracking in 6 calendar months",
+   "The 6-month grace period and then the instrument proficiency check",
+   "Required inspections: pitot-static, transponder, VOR check, altimeter",
+   "Checking instruments and equipment after the flight, and noting discrepancies",
+   "Logging instrument time correctly"
+  ],
+  "pageCount": 8
+ }
+]

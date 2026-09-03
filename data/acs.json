@@ -1,0 +1,1715 @@
+{
+ "code": "FAA-S-ACS-8C",
+ "title": "Instrument Rating \u2013 Airplane ACS",
+ "file": "pdfs/acs.pdf",
+ "areas": [
+  {
+   "num": "I",
+   "title": "Preflight Preparation",
+   "tasks": [
+    {
+     "code": "IR.I.A",
+     "letter": "A",
+     "title": "Pilot Qualifications",
+     "page": 8,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.I.A.K1",
+        "text": "Certification requirements, recency of experience, and recordkeeping"
+       },
+       {
+        "code": "IR.I.A.K2",
+        "text": "Privileges and limitations"
+       },
+       {
+        "code": "IR.I.A.K3",
+        "text": "Part 68 BasicMed privileges and limitations"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.I.A.R1",
+        "text": "Proficiency versus currency"
+       },
+       {
+        "code": "IR.I.A.R2",
+        "text": "Personal minimums"
+       },
+       {
+        "code": "IR.I.A.R3",
+        "text": "Fitness for flight and physiological factors that might affect the pilot\u2019s ability to fly under instrument conditions"
+       },
+       {
+        "code": "IR.I.A.R4",
+        "text": "Flying unfamiliar aircraft or operating with unfamiliar flight display systems and avionics"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.I.A.S1",
+        "text": "Apply requirements to act as pilot-in-command (PIC) under Instrument Flight Rules (IFR) in a scenario given by the evaluator"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.I.B",
+     "letter": "B",
+     "title": "Weather Information",
+     "page": 8,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.I.B.K1",
+        "text": "), the applicant should be prepared for questions on any weather product presented in the references for that Task. The FAA encourages applicants and instructors to use the ACS when preparing for the airman knowledge tests and practical tests. Evaluators must conduct the practical test in accordance with the current ACS and FAA regulations pursuant to 14 CFR part 61, section 61.43. If an applicant is entitled to credit for Areas of Operation previously passed as indicated on a Notice of Disapproval of Application or Letter of Discontinuance, evaluators shall use the ACS currently in effect on the date of the test. The ground portion of the practical test allows the evaluator to determine whether the applicant is sufficiently prepared to advance to the flight portion of the practical test. The applicant must pass the ground portion of the practical test before beginning the flight portion. The oral questioning will continue throughout the entire practical test. Combined Private/Instrument Test Applicants for a combined Private Pilot Certificate with Instrument Rating, in accordance with 14 CFR part 61, section 61.65(a) and (g), must pass all areas designated in the Private Pilot for Airplane ACS and the Instrument Rating \u2013 Airplane ACS. Evaluators need not duplicate Tasks. For example, only one preflight demonstration would be required; however, the Preflight Task from the Instrument Rating \u2013 Airplane ACS would be more extensive than the Preflight Task from the Private Pilot for Airplane ACS to ensure readiness for Instrument Flight Rules (IFR) flight. Applicants for a combined test must present the applicable test reports. A combined certificate and rating evaluation should be treated as one practical test, requiring only one application and resulting in only one temporary certificate, disapproval notice, or letter of discontinuance, as applicable. Failure of any Task will result in a failure of the entire test and application. Therefore, even if the deficient maneuver was instrument related and the performance of all visual flight rules (VFR) Tasks was determined to be satisfactory, the applicant will receive a notice of disapproval. Instructor Responsibilities The instructor trains and qualifies the applicant to meet the established standards for knowledge, risk management, and skill elements in all Tasks appropriate to the certificate and rating sought. The instructor should use this ACS and its references when preparing the applicant to take the practical test and when retraining the applicant to proficiency in any subject(s) missed on the knowledge test. Evaluator Responsibilities An evaluator includes the following: \u2022 Aviation Safety Inspector (ASI); \u2022 Pilot examiner (other than administrative pilot examiners); \u2022 Training center evaluator (TCE); 27 Appendix 1: Practical Test Roles, Responsibilities, and Outcomes Instrument Rating \u2013 Airplane ACS (FAA-S-ACS-8C) \u2022 Chief instructor, assistant chief instructor, or check instructor of pilot school holding examining authority; or \u2022 Instrument Flight Instructor (CFII) conducting an instrument proficiency check (IPC). The evaluator who conducts the practical test verifies the applicant has met the aeronautical experience requirements specified for a certificate or rating before administering the test. During the practical test, the evaluator determines whether the applicant meets the established standards of aeronautical knowledge, risk management, and skills for the Tasks in the appropriate ACS. The evaluator must develop a plan of action (POA) that includes all required Areas of Operation and Tasks and administer each practical test in English. The POA must include scenario(s) that evaluate as many of the required Areas of Operation and Tasks as possible. As a scenario unfolds during the test, the evaluator will introduce problems and simulate emergencies that test the applicant\u2019s ability. The evaluator has the discretion to modify the POA to accommodate unexpected situations as they arise or suspend and later resume a scenario to assess certain Tasks. Prior to and throughout the evaluation, the evaluator ensures the applicant meets the FAA Aviation English Language Standard (AELS). An applicant must be able to communicate in English in a discernible and understandable manner with air traffic control (ATC), pilots, and others involved in preparing an aircraft for flight and operating an aircraft in flight. This communication may or may not involve radio communications. An applicant for an FAA certificate or rating issued in accordance with 14 CFR parts 61, 63, 65, or 107 who cannot hear or speak due to a medical deficiency may be eligible for an FAA certificate with specific operational limitations. If the applicant\u2019s ability to meet the FAA AELS comes into question before starting the practical test, the evaluator will not begin the practical test. An evaluator other than an ASI will check the box, \u201cReferred to FSO for Aviation English Language Standard Determination,\u201d located on the bottom of page 2 of the applicant\u2019s FAA Form 8710-1, Airman Certificate and/ or Rating Application, or FAA Form 8710-11, Airman Certificate and/or Rating Application - Sport Pilot, as applicable. The evaluator will refer the applicant to the appropriate Flight Standards Office (FSO). If the applicant\u2019s ability to meet the FAA AELS comes into question after the practical test begins, an evaluator who other than an ASI will discontinue the practical test and check the box, \u201cReferred to FSO for Aviation English Language Standard Determination,\u201d on the application. The evaluator will also issue FAA Form 8060-5, Notice of Disapproval of Application, with the comment \u201cDoes Not Demonstrate FAA AELS\u201d in addition to any unsatisfactory Task(s). The evaluator will refer the applicant to the appropriate FSO. ASIs conducting the practical test may assess an applicant\u2019s English language proficiency in accordance with FAA Order 8900.1. In either case, the evaluator must complete and submit the application file through normal application procedures and evaluators other than an ASI notify the appropriate FSO of the referral. If the ability of an FAA certificated airman comes into question prior to or during a required regulatory check (e.g., proficiency check) the evaluator other than an ASI will not continue the check or provide an endorsement indicating completion. The evaluator will refer the airman to the jurisdictional FAA field office for further determination of ability to meet the FAA AELS. For additional information, reference AC 60-28, FAA English Language Standard for an FAA Certificate issued under 14 CFR parts 61, 63, 65, and 107, as amended. The abbreviation(s) within parentheses immediately following a Task refers to the category and/or class airplane appropriate to that Task. The absence of a class indicates the Task is for all classes. The meaning of each abbreviation is as follows: \u2022 ASEL\u2014Airplane \u2013 Single-Engine Land \u2022 ASES\u2014Airplane \u2013 Single-Engine Sea \u2022 AMEL\u2014Airplane \u2013 Multiengine Land \u2022 AMES\u2014Airplane \u2013 Multiengine Sea Possible Outcomes of the Test A practical test has three possible outcomes: (1) Temporary Airman Certificate (satisfactory), (2) Notice of Disapproval of Application (unsatisfactory), or (3) Letter of Discontinuance. If the evaluator determines that a Task is incomplete, or the outcome is uncertain, the evaluator must require the applicant to repeat that Task, or portions of that Task. This provision does not mean that instruction, practice, or the repetition of an unsatisfactory Task is permitted during the practical test. 28 Appendix 1: Practical Test Roles, Responsibilities, and Outcomes Instrument Rating \u2013 Airplane ACS (FAA-S-ACS-8C) Satisfactory Performance Refer to 14 CFR part 61, section 61.43, for satisfactory performance requirements. Satisfactory performance will result in the issuance of a temporary certificate. Unsatisfactory Performance If, in the judgment of the evaluator, the applicant does not meet the standards for any Task, the applicant fails the Task and associated Area of Operation and the evaluator issues a Notice of Disapproval of Application. The evaluator lists the Area(s) of Operation in which the applicant did not meet the standard, any Area(s) of Operation not tested, and the number of practical test failures. The evaluator should also list the Tasks failed or Tasks not tested within any unsatisfactory or partially completed Area(s) of Operation. 14 CFR part 61, section 61.43(c)-(f) provides additional unsatisfactory performance requirements and parameters. Typical areas of unsatisfactory performance and grounds for disqualification include: \u2022 Any action or lack of action by the applicant that requires corrective intervention by the evaluator to maintain safe flight. \u2022 Failure to use proper and effective visual scanning techniques to clear the area before and while performing maneuvers. \u2022 Consistently exceeding tolerances stated in the skill elements of the Task. \u2022 Failure to take prompt corrective action when tolerances are exceeded. \u2022 Failure to exercise risk management. The evaluator or the applicant may end the test if the applicant fails a Task. The evaluator may continue the test only with the consent of the applicant. The applicant receives credit only for those Areas of Operation and the associated Tasks performed satisfactorily. Letter of Discontinuance Refer to 14 CFR part 61, section 61.43(e)(2) for conditions to issue a letter of discontinuance. If discontinuing a practical test for reasons other than unsatisfactory performance (e.g., equipment failure, weather, illness), the evaluator must return all test paperwork to the applicant. The evaluator must prepare, sign, and issue a Letter of Discontinuance that lists those Areas of Operation the applicant successfully completed and the time period remaining to complete the test to receive credit for previously completed Areas of Operation. The evaluator should advise the applicant to present the Letter of Discontinuance to the evaluator when the practical test resumes in order to receive credit for the items successfully completed. The Letter of Discontinuance becomes part of the applicant's certification file. Time Limit and Credit after a Discontinued Practical Test Refer to 14 CFR part 61, sections 61.39(f) and 61.43(f) after issuance of a Letter of Discontinuance or Notice of Disapproval of Application. Additional Rating Task Table For an applicant who holds an instrument rating in another category and seeks an additional Instrument Airplane rating, the evaluator must evaluate that applicant in the Areas of Operation and Tasks listed in the Additional Rating Task Table. The evaluator may evaluate the applicant\u2019s competence in the remaining Areas of Operation and Tasks. 29 Appendix 1: Practical Test Roles, Responsibilities, and Outcomes Instrument Rating \u2013 Airplane ACS (FAA-S-ACS-8C) Addition of an Airplane Rating to an Existing Instrument Rating Certificate The table below indicates the required Tasks for each Area of Operation tested in accordance with this ACS. Required Area of Operation Required Task(s) I None II A,C III None IV All V None VI All VII All VIII All ote: N In Area of Operation VII, Emergency Operations, Tasks B and C apply to multiengine tests only. The removal of the \u201cAirplane Multiengine VFR Only\u201d limitation, at the private pilot or commercial pilot certificate level, requires an applicant to satisfactorily perform the following Area of Operation and Tasks from the Instrument Rating \u2012 Airplane ACS: Area of Operation VII, Emergency Operations , in a multiengine airplane that has a manufacturer\u2019s published VMC speed. \u2022 Task B: One Engine Inoperative during Straight-and-Level Flight and Turns (AMEL, AMES) \u2022 Task C: Instrument Approach and Landing with an Inoperative Engine (Simulated) (AMEL, AMES) Instrument Proficiency Check 14 CFR part 61, section 61.57(d) sets forth the requirements for an instrument proficiency check (IPC). Evaluators conducting an IPC must ensure the pilot meets the standards established in this ACS. As a minimum, the applicant must demonstrate the ability to perform the Tasks listed in the table below. The person giving the check should develop a scenario that incorporates as many required Tasks as practical to assess the pilot\u2019s aeronautical decision making (ADM) and risk management skills. Required Area of Operation Required Task(s) I None II None III B IV B V A VI All VII B,C,D VIII All ote: N In Area of Operation VII, Emergency Operations, Tasks B and C apply to multiengine tests only. An Advanced Aviation Training Device (AATD) can be utilized for the majority of the IPC as specified in the Letter of Authorization issued for the device. However, the circling approach, the landing Task, and the multiengine airplane Tasks must be accomplished in an aircraft or FFS (Level B, C, or D). A Basic Aviation Training Device (BATD) cannot be used for 30 Appendix 1: Practical Test Roles, Responsibilities, and Outcomes Instrument Rating \u2013 Airplane ACS (FAA-S-ACS-8C) any part of the IPC. Refer to Advisory Circular (AC) 61-98 (as amended), Currency Requirements and Guidance for the Flight Review and Instrument Proficiency Check, as amended for information on conducting an IPC. The AC can be found at: www.faa.gov. 31 Appendix 2: Safety of Flight Instrument Rating \u2013 Airplane ACS (FAA-S-ACS-8C) Appendix 2: Safety of Flight General Safety of flight must be the prime consideration at all times. The evaluator, applicant, and crew must be continually alert for other traffic. If performing aspects of a given maneuver, such as emergency procedures, would jeopardize safety, the evaluator will ask the applicant to simulate that portion of the maneuver. The evaluator will assess the applicant\u2019s use of visual scanning and collision avoidance procedures throughout the entire test. Stall and Spin Awareness During flight training and testing, the applicant and the instructor or evaluator must always recognize and avoid operations that could lead to an inadvertent stall or spin and inadvertent loss of control. Use of Checklists Throughout the practical test, the applicant is evaluated on the use of an appropriate checklist. Assessing proper checklist use depends upon the specific Task. In all cases, the evaluator should determine whether the applicant demonstrates CRM, appropriately divides attention, and uses proper visual scanning. In some situations, reading the actual checklist may be impractical or unsafe. In such cases, the evaluator should assess the applicant's performance of published or recommended immediate action \"memory\" items along with their review of the appropriate checklist once conditions permit. In a single-pilot airplane, the applicant should demonstrate the crew resource management (CRM) principles described as single-pilot resource management (SRM). Proper use depends on the specific Task being evaluated. If the use of the checklist while accomplishing elements of an Objective would be either unsafe or impractical in a single-pilot operation, the applicant should review the checklist after accomplishing the elements. Positive Exchange of Flight Controls A clear understanding of who has control of the aircraft must exist. Prior to flight, the pilots involved should conduct a briefing that includes reviewing the procedures for exchanging flight controls. The FAA recommends a positive three-step process for exchanging flight controls between pilots: \u2022 When one pilot seeks to have the other pilot take control of the aircraft, they will say, \u201cYou have the flight controls.\u201d \u2022 The second pilot acknowledges immediately by saying, \u201cI have the flight controls.\u201d \u2022 The first pilot again says, \u201cYou have the flight controls,\u201d and visually confirms the exchange. Pilots should follow this procedure during any exchange of flight controls, including any occurrence during the practical test. The FAA also recommends that both pilots use a visual check to verify that the exchange has occurred. Doubt as to who is flying the aircraft should not occur. Use of Distractions Numerous studies indicate that many accidents have occurred when the pilot has been distracted during critical phases of flight. The evaluator should incorporate realistic distractions during the flight portion of the practical test to evaluate the pilot\u2019s situational awareness and ability to utilize proper control technique while dividing attention both inside and outside the flight deck. Aeronautical Decision-Making, Risk Management, Crew Resource Management, and Single-Pilot Resource Management Throughout the practical test, the evaluator must assess the applicant\u2019s ability to use sound aeronautical decision-making procedures in order to identify hazards and mitigate risk. The evaluator must accomplish this requirement by reference to the risk management elements of the given Task(s), and by developing scenarios that incorporate and combine Tasks appropriate to assessing the applicant\u2019s risk management in making safe aeronautical decisions. For example, the evaluator 32 Appendix 2: Safety of Flight Instrument Rating \u2013 Airplane ACS (FAA-S-ACS-8C) may develop a scenario that incorporates weather decisions and performance planning. In assessing the applicant\u2019s performance, the evaluator should take note of the applicant\u2019s use of CRM and, if appropriate, SRM. CRM/SRM is the set of competencies that includes situational awareness, communication skills, teamwork, task allocation, and decision-making within a comprehensive framework of standard operating procedures (SOP). SRM specifically refers to the management of all resources onboard the aircraft, as well as outside resources available to the single pilot. Multiengine Considerations For instrument practical tests conducted in multiengine aircraft, the evaluator must discuss with the applicant the methods for simulating an engine failure in accordance with the aircraft manufacturer's recommended procedures during the required preflight briefing. 33 Appendix 3: Aircraft, Equipment, and Operational Requirements & Limitations Instrument Rating \u2013 Airplane ACS (FAA-S-ACS-8C) Appendix 3: Aircraft, Equipment, and Operational Requirements & Limitations Aircraft Requirements & Limitations If the aircraft has inoperative equipment and can be operated in accordance with 14 CFR part 91, section 91.213, it must be determined if any inoperative instruments or equipment are required to complete the practical test. The inoperative equipment must not interfere with practical test requirements. Applicants testing in a multiengine airplane must provide a multiengine airplane with a published VMC unless the airman\u2019s certificate has a center thrust limitation. Equipment Requirements & Limitations The aircraft must meet the requirements as outlined in 14 CFR part 61, section 61.45. To assist in management of the aircraft during the practical test, the applicant is expected to demonstrate automation management skills by utilizing installed, available, or airborne equipment such as autopilot, avionics and systems displays, and/or a flight management system (FMS). The evaluator is expected to test the applicant\u2019s knowledge of the systems that are available or installed and operative during both the ground and flight portions of the practical test. If the applicant has trained using a portable electronic flight bag (EFB) to display charts and data and wishes to use the EFB during the practical test, the applicant is expected to demonstrate appropriate knowledge, risk management, and skill appropriate to its use. If the practical test involves maneuvering the aircraft solely by reference to instruments, the applicant is required by 14 CFR part 61, section 61.45(d)(2) to provide an appropriate view limiting device acceptable to the Administrator. The applicant and the evaluator should establish a procedure as to when and how this device should be donned and removed and brief this procedure before the flight. This device must prevent the applicant from having visual reference outside the aircraft, but it must not restrict the evaluator\u2019s ability to see and avoid other traffic. The use of the device does not apply to specific elements within a Task when there is a requirement for visual references. Use of Flight Simulation Training Devices (FSTD) Applicants for a pilot certificate or rating can accomplish all or part of a practical test or proficiency check in an FSTD qualified under 14 CFR part 60, which includes full flight simulators (FFS) or flight training devices (FTD), only when conducted within an FAA-approved training program. Each operational rule part identifies additional requirements for the approval and use of FSTDs in an FAA-approved training program. Credit for Pilot Time in an FSTD 14 CFR part 61 and part 141 specify the minimum experience requirements for each certificate or rating sought. 14 CFR part 61 and the appendices to part 141 specify the maximum amount of FFS or FTD flight training time an applicant can apply toward those experience requirements. Use of Aviation Training Devices (ATD) Applicants for a pilot certificate or rating cannot use an ATD to accomplish a practical test, a 14 CFR part 61, section 61.58 proficiency check, or the flight portion of a 14 CFR part 61, section 61.57 flight review. An ATD is defined in 14 CFR part 61, section 61.1. The FAA\u2019s General Aviation and Commercial Division evaluates and approves ATDs as permitted under 14 CFR part 61, section 61.4(c) and FAA Order 8900.1. Each ATD is then issued an FAA letter of authorization (LOA) that is valid for 60 calendar months. The LOA for each ATD lists the pilot time credit allowances and associated limitations. The Pilot Training and Certification Group public website provides a list of the FAA-approved ATDs and the associated manufacturer. Credit for Pilot Time in an ATD 14 CFR part 61 and part 141 specify the minimum experience requirements for each certificate or rating sought. 14 CFR part 61 and the appendices to part 141 specify the maximum amount of ATD flight training time an applicant can apply toward those experience requirements. The LOA for each FAA-approved ATD lists the pilot time credit allowances and the associated limitations. 34 Appendix 3: Aircraft, Equipment, and Operational Requirements & Limitations Instrument Rating \u2013 Airplane ACS (FAA-S-ACS-8C) Evaluators must request an applicant to provide a copy of the manufacturer's LOA when using ATD flight training time credit to meet the minimum experience requirements for an airman pilot certificate, rating, or privilege. Operational Requirements, Limitations, & Task Information V. Navigation Systems"
+       },
+       {
+        "code": "IR.I.B.K2",
+        "text": "Acceptable weather products and resources required for preflight planning, current and forecast weather for departure, en route, and arrival phases of flight such as:"
+       },
+       {
+        "code": "IR.I.B.K2a",
+        "text": "a. Airport Observations (METAR and SPECI) and Pilot Observations (PIREP)"
+       },
+       {
+        "code": "IR.I.B.K2b",
+        "text": "b. Surface Analysis Chart, Ceiling and Visibility Chart (CVA)"
+       },
+       {
+        "code": "IR.I.B.K2c",
+        "text": "c. Terminal Aerodrome Forecasts (TAF)"
+       },
+       {
+        "code": "IR.I.B.K2d",
+        "text": "d. Graphical Forecasts for Aviation (GFA)"
+       },
+       {
+        "code": "IR.I.B.K2e",
+        "text": "e. Wind and Temperature Aloft Forecast (FB)"
+       },
+       {
+        "code": "IR.I.B.K2f",
+        "text": "f. Convective Outlook (AC)"
+       },
+       {
+        "code": "IR.I.B.K2g",
+        "text": "g. Inflight Aviation Weather Advisories including Airmen's Meteorological Information (AIRMET), Significant Meteorological Information (SIGMET), and Convective SIGMET"
+       },
+       {
+        "code": "IR.I.B.K3",
+        "text": "may select a sub-element such as"
+       },
+       {
+        "code": "IR.I.B.K3a",
+        "text": "to satisfy the requirement to select one knowledge element. The References for each Task indicate the source material for Task elements. For example, in the Task element \u201cSources of weather data (e.g., National Weather Service, Flight Service) for flight planning purposes\u201d ("
+       },
+       {
+        "code": "IR.I.B.K3b",
+        "text": "b. Wind (e.g., windshear, mountain wave, factors affecting wind, etc.)"
+       },
+       {
+        "code": "IR.I.B.K3c",
+        "text": "c. Temperature and heat exchange"
+       },
+       {
+        "code": "IR.I.B.K3d",
+        "text": "d. Moisture/precipitation"
+       },
+       {
+        "code": "IR.I.B.K3e",
+        "text": "e. Weather system formation, including air masses and fronts"
+       },
+       {
+        "code": "IR.I.B.K3f",
+        "text": "f. Clouds"
+       },
+       {
+        "code": "IR.I.B.K3g",
+        "text": "g. Turbulence"
+       },
+       {
+        "code": "IR.I.B.K3h",
+        "text": "h. Thunderstorms and microbursts"
+       },
+       {
+        "code": "IR.I.B.K3i",
+        "text": "i. Icing and freezing level information"
+       },
+       {
+        "code": "IR.I.B.K3j",
+        "text": "j. Fog/mist"
+       },
+       {
+        "code": "IR.I.B.K3k",
+        "text": "k. Frost"
+       },
+       {
+        "code": "IR.I.B.K3l",
+        "text": "l. Obstructions to visibility (e.g., smoke, haze, volcanic ash, etc.)"
+       },
+       {
+        "code": "IR.I.B.K4",
+        "text": ": IR = Applicable ACS I = Area of Operation B =Task K4 = Task element (in this example, Knowledge 4) There is no requirement for an evaluator to test every knowledge and risk management element in a Task; rather the evaluator has discretion to sample as needed to ensure the applicant\u2019s mastery of that Task. The required minimum elements to be tested from each applicable Task include: \u2022 any elements in which the applicant was shown to be deficient on the knowledge test, as applicable; \u2022 at least one knowledge element; \u2022 at least one risk management element; and \u2022 all skill elements unless otherwise noted. The Airman Knowledge Test Report (AKTR) lists ACS codes that correlate to a specific Task element for a given Area of 26 Appendix 1: Practical Test Roles, Responsibilities, and Outcomes Instrument Rating \u2013 Airplane ACS (FAA-S-ACS-8C) Operation for any incorrect responses on the knowledge test. Knowledge and risk management elements are primarily evaluated during the knowledge testing phase of the airman certification process. The evaluator administering the practical test has the discretion to combine Tasks/elements as appropriate to testing scenarios. Unless otherwise noted in the Task, the evaluator must test each item in the skills section by observing the applicant perform each one. As safety of flight conditions permit, the evaluator should use questions during flight to test knowledge and risk management elements not evident in the demonstrated skills. To the greatest extent practicable, evaluators should test the applicant\u2019s ability to apply and correlate information and use rote questions only when they are appropriate for the material being tested. If the Task includes a knowledge or risk element with sub-elements, the evaluator may choose the primary element and select at least one sub-element to satisfy the requirement. Selection of the sub-element satisfies the requirement for one element unless otherwise noted. For example, an evaluator who chooses"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.I.B.R1",
+        "text": "Making the go/no-go and continue/divert decisions, including:"
+       },
+       {
+        "code": "IR.I.B.R1a",
+        "text": "a. Circumstances that would make diversion prudent"
+       },
+       {
+        "code": "IR.I.B.R1b",
+        "text": "b. Personal weather minimums"
+       },
+       {
+        "code": "IR.I.B.R1c",
+        "text": "c. Hazardous weather conditions, including known or forecast icing or turbulence aloft"
+       },
+       {
+        "code": "IR.I.B.R2",
+        "text": "Use and limitations of:"
+       },
+       {
+        "code": "IR.I.B.R2a",
+        "text": "a. Installed onboard weather equipment"
+       },
+       {
+        "code": "IR.I.B.R2b",
+        "text": "b. Aviation weather reports and forecasts"
+       },
+       {
+        "code": "IR.I.B.R2c",
+        "text": "c. Inflight weather resources"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.I.B.S1",
+        "text": "Use available aviation weather resources to obtain an adequate weather briefing"
+       },
+       {
+        "code": "IR.I.B.S2",
+        "text": "Analyze the implications of at least three of the conditions listed in K3a through K3l, using actual weather or weather conditions provided by the evaluator"
+       },
+       {
+        "code": "IR.I.B.S3",
+        "text": "Correlate weather information to make a go/no-go decision"
+       },
+       {
+        "code": "IR.I.B.S4",
+        "text": "Determine whether an alternate airport is required, and, if required, whether the selected alternate airport meets regulatory requirements"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.I.C",
+     "letter": "C",
+     "title": "Cross-Country Flight Planning",
+     "page": 10,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.I.C.K1",
+        "text": "Route planning, including consideration of:"
+       },
+       {
+        "code": "IR.I.C.K1a",
+        "text": "a. Available navigational facilities"
+       },
+       {
+        "code": "IR.I.C.K1b",
+        "text": "b. Special use airspace"
+       },
+       {
+        "code": "IR.I.C.K1c",
+        "text": "c. Preferred routes"
+       },
+       {
+        "code": "IR.I.C.K1d",
+        "text": "d. Primary and alternate airports"
+       },
+       {
+        "code": "IR.I.C.K1e",
+        "text": "e. Enroute charts"
+       },
+       {
+        "code": "IR.I.C.K1f",
+        "text": "f. Chart Supplements"
+       },
+       {
+        "code": "IR.I.C.K1g",
+        "text": "g. NOTAMS"
+       },
+       {
+        "code": "IR.I.C.K1h",
+        "text": "h. Terminal Procedures Publications (TPP)"
+       },
+       {
+        "code": "IR.I.C.K2",
+        "text": "Altitude selection accounting for terrain and obstacles, glide distance of airplane, IFR cruising altitudes, effect of wind, and oxygen requirements"
+       },
+       {
+        "code": "IR.I.C.K3",
+        "text": "Calculating:"
+       },
+       {
+        "code": "IR.I.C.K3a",
+        "text": "a. Time, climb and descent rates, course, distance, heading, true airspeed, and groundspeed"
+       },
+       {
+        "code": "IR.I.C.K3b",
+        "text": "b. Estimated time of arrival, including conversion to universal coordinated time (UTC)"
+       },
+       {
+        "code": "IR.I.C.K3c",
+        "text": "c. Fuel requirements, including reserve"
+       },
+       {
+        "code": "IR.I.C.K4",
+        "text": "Elements of an IFR flight plan"
+       },
+       {
+        "code": "IR.I.C.K5",
+        "text": "Procedures for activating and closing an IFR flight plan in controlled and uncontrolled airspace"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.I.C.R1",
+        "text": "Pilot"
+       },
+       {
+        "code": "IR.I.C.R2",
+        "text": "Aircraft"
+       },
+       {
+        "code": "IR.I.C.R3",
+        "text": "Environment (e.g., weather, airports, airspace, terrain, obstacles)"
+       },
+       {
+        "code": "IR.I.C.R4",
+        "text": "External pressures"
+       },
+       {
+        "code": "IR.I.C.R5",
+        "text": "Limitations of air traffic control (ATC) services"
+       },
+       {
+        "code": "IR.I.C.R6",
+        "text": "Limitations of electronic planning applications and programs"
+       },
+       {
+        "code": "IR.I.C.R7",
+        "text": "Fuel planning"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.I.C.S1",
+        "text": "Prepare, present, and explain a cross-country flight plan assigned by the evaluator including a risk analysis based on real time weather, which includes calculating time en route and fuel considering factors such as power settings, operating altitude, wind, fuel reserve requirements, and weight and balance requirements"
+       },
+       {
+        "code": "IR.I.C.S2",
+        "text": "Recalculate fuel reserves based on a scenario provided by the evaluator"
+       },
+       {
+        "code": "IR.I.C.S3",
+        "text": "Create a navigation plan and simulate filing an IFR flight plan"
+       },
+       {
+        "code": "IR.I.C.S4",
+        "text": "Interpret departure, arrival, en route, and approach procedures with reference to appropriate and current charts"
+       },
+       {
+        "code": "IR.I.C.S5",
+        "text": "Recognize simulated wing contamination due to airframe icing and demonstrate knowledge of the adverse effects of airframe icing during pre-takeoff, takeoff, cruise, and landing phases of flight as well as the corrective actions"
+       },
+       {
+        "code": "IR.I.C.S6",
+        "text": "Apply pertinent information from appropriate and current aeronautical charts, Chart Supplements; Notices to Air Missions (NOTAMs) relative to airport, runway and taxiway closures; and other flight publications"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "num": "II",
+   "title": "Preflight Procedures",
+   "tasks": [
+    {
+     "code": "IR.II.A",
+     "letter": "A",
+     "title": "Aircraft Systems Related to Instrument Flight Rules (IFR) Operations",
+     "page": 12,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.II.A.K1",
+        "text": "The general operational characteristics and limitations of applicable anti-icing and deicing systems, including airframe, propeller, intake, fuel, and pitot-static systems"
+       },
+       {
+        "code": "IR.II.A.K2",
+        "text": "Flight control systems"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.II.A.R1",
+        "text": "Operations in icing conditions"
+       },
+       {
+        "code": "IR.II.A.R2",
+        "text": "Limitations of anti-icing and deicing systems"
+       },
+       {
+        "code": "IR.II.A.R3",
+        "text": "Use of automated systems in instrument conditions"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.II.A.S1",
+        "text": "Demonstrate familiarity with anti- or de-icing procedures or information published by the manufacturer specific to the aircraft used on the practical test"
+       },
+       {
+        "code": "IR.II.A.S2",
+        "text": "Demonstrate familiarity with the automatic flight control system (AFCS) procedures or information published by the manufacturer specific to the aircraft used on the practical test, if applicable"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.II.B",
+     "letter": "B",
+     "title": "Aircraft Flight Instruments and Navigation Equipment",
+     "page": 12,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.II.B.K1",
+        "text": "Operation of the aircraft\u2019s applicable flight instrument system(s), including:"
+       },
+       {
+        "code": "IR.II.B.K1a",
+        "text": "a. Pitot-static instrument system and associated instruments"
+       },
+       {
+        "code": "IR.II.B.K1b",
+        "text": "b. Gyroscopic/electric/vacuum instrument system and associated instruments"
+       },
+       {
+        "code": "IR.II.B.K1c",
+        "text": "c. Electrical systems, electronic flight instrument displays [primary flight display (PFD), multi- function display (MFD)], transponder and automatic dependent surveillance - broadcast (ADS-B)"
+       },
+       {
+        "code": "IR.II.B.K1d",
+        "text": "d. Magnetic compass"
+       },
+       {
+        "code": "IR.II.B.K2",
+        "text": "Operation of the aircraft\u2019s applicable navigation system(s), including:"
+       },
+       {
+        "code": "IR.II.B.K2a",
+        "text": "a. Very high frequency (VHF) Omnidirectional Range (VOR), distance measuring equipment (DME), instrument landing system (ILS), marker beacon receiver/indicators"
+       },
+       {
+        "code": "IR.II.B.K2b",
+        "text": "b. Area navigation (RNAV), global positioning system (GPS), Wide Area Augmentation System (WAAS), flight management system (FMS), autopilot"
+       },
+       {
+        "code": "IR.II.B.K3",
+        "text": "Use of an electronic flight bag (EFB), if used"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.II.B.R1",
+        "text": "Monitoring and management of automated systems"
+       },
+       {
+        "code": "IR.II.B.R2",
+        "text": "Difference between approved and non-approved navigation devices"
+       },
+       {
+        "code": "IR.II.B.R3",
+        "text": "Modes of flight and navigation instruments, including failure conditions"
+       },
+       {
+        "code": "IR.II.B.R4",
+        "text": "Use of an electronic flight bag"
+       },
+       {
+        "code": "IR.II.B.R5",
+        "text": "Use of navigation databases"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.II.B.S1",
+        "text": "Operate and manage installed instruments and navigation equipment"
+       },
+       {
+        "code": "IR.II.B.S2",
+        "text": "Operate and manage an applicant supplied electronic flight bag (EFB), if used"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.II.C",
+     "letter": "C",
+     "title": "Instrument Flight Deck Check",
+     "page": 13,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.II.C.K1",
+        "text": "Purpose of performing an instrument flight deck check and how to detect possible defects"
+       },
+       {
+        "code": "IR.II.C.K2",
+        "text": "IFR airworthiness, including aircraft inspection requirements and required equipment for IFR flight"
+       },
+       {
+        "code": "IR.II.C.K3",
+        "text": "Required procedures, documentation, and limitations of flying with inoperative equipment"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.II.C.R1",
+        "text": "Operating with inoperative equipment"
+       },
+       {
+        "code": "IR.II.C.R2",
+        "text": "Operating with outdated navigation publications or databases"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.II.C.S1",
+        "text": "Perform preflight inspection by following the checklist appropriate to the aircraft and determine if the aircraft is in a condition for safe instrument flight"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "num": "III",
+   "title": "Air Traffic Control (ATC) Clearances and Procedures",
+   "tasks": [
+    {
+     "code": "IR.III.A",
+     "letter": "A",
+     "title": "Compliance with Air Traffic Control Clearances",
+     "page": 14,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.III.A.K1",
+        "text": "Elements and procedures related to ATC clearances and pilot/controller responsibilities for departure, en route, and arrival phases of flight, including clearance void times"
+       },
+       {
+        "code": "IR.III.A.K2",
+        "text": "Pilot-in-Command (PIC) emergency authority"
+       },
+       {
+        "code": "IR.III.A.K3",
+        "text": "Lost communication procedures and procedures for flights outside of radar environments"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.III.A.R1",
+        "text": "Less than full understanding of an ATC clearance"
+       },
+       {
+        "code": "IR.III.A.R2",
+        "text": "Inappropriate, incomplete, or incorrect ATC clearances"
+       },
+       {
+        "code": "IR.III.A.R3",
+        "text": "ATC clearance inconsistent with aircraft performance or navigation capability"
+       },
+       {
+        "code": "IR.III.A.R4",
+        "text": "ATC clearance intended for other aircraft with similar call signs"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.III.A.S1",
+        "text": "Correctly copy, read back, interpret, and comply with simulated or actual ATC clearances in a timely manner using standard phraseology as provided in the Aeronautical Information Manual (AIM)"
+       },
+       {
+        "code": "IR.III.A.S2",
+        "text": "Correctly set communication frequencies, navigation systems (identifying when appropriate), and transponder codes in compliance with the ATC clearance"
+       },
+       {
+        "code": "IR.III.A.S3",
+        "text": "Use the current and appropriate paper or electronic navigation publications"
+       },
+       {
+        "code": "IR.III.A.S4",
+        "text": "Intercept all courses, radials, and bearings appropriate to the procedure, route, or clearance in a timely manner"
+       },
+       {
+        "code": "IR.III.A.S5",
+        "text": "Maintain the applicable airspeed \u00b110 knots, headings \u00b110\u00b0, altitude \u00b1100 feet; track a course, radial, or bearing within \u00be-scale deflection of the course deviation indicator (CDI)"
+       },
+       {
+        "code": "IR.III.A.S6",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       },
+       {
+        "code": "IR.III.A.S7",
+        "text": "Perform the appropriate checklist items relative to the phase of flight"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.III.B",
+     "letter": "B",
+     "title": "Holding Procedures",
+     "page": 14,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.III.B.K1",
+        "text": "Elements related to holding procedures, including reporting criteria, appropriate speeds, and recommended entry procedures for standard, nonstandard, published, and non-published holding patterns"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.III.B.R1",
+        "text": "Recalculating fuel reserves if assigned an unanticipated expect further clearance (EFC) time"
+       },
+       {
+        "code": "IR.III.B.R2",
+        "text": "Scenarios and circumstances that could result in minimum fuel or the need to declare an emergency"
+       },
+       {
+        "code": "IR.III.B.R3",
+        "text": "Scenarios that could lead to holding, including deteriorating weather at the planned destination"
+       },
+       {
+        "code": "IR.III.B.R4",
+        "text": "Holding entry and wind correction while holding"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.III.B.S1",
+        "text": "Use an entry procedure appropriate for a standard, nonstandard, published, or non-published holding pattern"
+       },
+       {
+        "code": "IR.III.B.S2",
+        "text": "Change to the holding airspeed appropriate for the altitude when 3 minutes or less from, but prior to arriving at, the holding fix and set appropriate power as needed for fuel conservation"
+       },
+       {
+        "code": "IR.III.B.S3",
+        "text": "Recognize arrival at the holding fix and promptly initiate entry into the holding pattern"
+       },
+       {
+        "code": "IR.III.B.S3a",
+        "text": "a. Comply with the holding pattern leg length and other restrictions, if applicable, associated with the holding pattern"
+       },
+       {
+        "code": "IR.III.B.S4",
+        "text": "Maintain airspeed \u00b110 knots, altitude \u00b1100 feet, selected headings within \u00b110\u00b0, and track a selected course, radial, or bearing within \u00be-scale deflection of the course deviation indicator (CDI)"
+       },
+       {
+        "code": "IR.III.B.S5",
+        "text": "Use proper wind correction procedures to maintain the desired pattern and to arrive over the fix as close as possible to a specified time"
+       },
+       {
+        "code": "IR.III.B.S6",
+        "text": "Use a multi-function display (MFD) and other graphical navigation displays, if installed, to monitor position in relation to the desired flightpath during holding"
+       },
+       {
+        "code": "IR.III.B.S7",
+        "text": "Comply with ATC reporting requirements and restrictions associated with the holding pattern"
+       },
+       {
+        "code": "IR.III.B.S8",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "num": "IV",
+   "title": "Flight by Reference to Instruments",
+   "tasks": [
+    {
+     "code": "IR.IV.A",
+     "letter": "A",
+     "title": "Instrument Flight",
+     "page": 16,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.IV.A.K1",
+        "text": "Elements related to attitude instrument flying during straight-and-level flight, climbs, turns, and descents while conducting various instrument flight procedures"
+       },
+       {
+        "code": "IR.IV.A.K2",
+        "text": "Interpretation, operation, and limitations of pitch, bank, and power instruments"
+       },
+       {
+        "code": "IR.IV.A.K3",
+        "text": "Normal and abnormal instrument indications and operations"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.IV.A.R1",
+        "text": "Situations that can affect physiology and degrade instrument cross-check"
+       },
+       {
+        "code": "IR.IV.A.R2",
+        "text": "Spatial disorientation and optical illusions"
+       },
+       {
+        "code": "IR.IV.A.R3",
+        "text": "Flying unfamiliar aircraft or operating with unfamiliar flight display systems and avionics"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.IV.A.S1",
+        "text": "Maintain altitude \u00b1100 feet during level flight, selected headings \u00b110\u00b0, airspeed \u00b110 knots, and bank angles \u00b15\u00b0 during turns"
+       },
+       {
+        "code": "IR.IV.A.S2",
+        "text": "Use proper instrument cross-check and interpretation, and apply the appropriate pitch, bank, power, and trim corrections when applicable"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.IV.B",
+     "letter": "B",
+     "title": "Recovery from Unusual Flight Attitudes",
+     "page": 16,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.IV.B.K1",
+        "text": "Procedures for recovery from unusual attitudes in flight"
+       },
+       {
+        "code": "IR.IV.B.K2",
+        "text": "Prevention of unusual attitudes, including flight causal, physiological, and environmental factors, and system and equipment failures"
+       },
+       {
+        "code": "IR.IV.B.K3",
+        "text": "Procedures available to safely regain visual meteorological conditions (VMC) after flight into inadvertent instrument meteorological conditions or unintended instrument meteorological conditions (IIMC)/(UIMC)"
+       },
+       {
+        "code": "IR.IV.B.K4",
+        "text": "Appropriate use of automation, if applicable"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.IV.B.R1",
+        "text": "Situations that could lead to loss of control in-flight (LOC-I) or unusual attitudes in-flight (e.g., stress, task saturation, inadequate instrument scan distractions, and spatial disorientation)"
+       },
+       {
+        "code": "IR.IV.B.R2",
+        "text": "[Archived]"
+       },
+       {
+        "code": "IR.IV.B.R3",
+        "text": "Operating envelope considerations"
+       },
+       {
+        "code": "IR.IV.B.R4",
+        "text": "Interpreting flight instruments"
+       },
+       {
+        "code": "IR.IV.B.R5",
+        "text": "Assessment of the unusual attitude"
+       },
+       {
+        "code": "IR.IV.B.R6",
+        "text": "Control input errors, inducing undesired aircraft attitudes"
+       },
+       {
+        "code": "IR.IV.B.R7",
+        "text": "Control application solely by reference to instruments"
+       },
+       {
+        "code": "IR.IV.B.R8",
+        "text": "Collision hazards"
+       },
+       {
+        "code": "IR.IV.B.R9",
+        "text": "Distractions, task prioritization, loss of situational awareness, or disorientation"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.IV.B.S1",
+        "text": "Use proper instrument cross-check and interpretation to identify an unusual attitude (including both nose-high and nose-low) in flight, and apply the appropriate flight control, power input, and aircraft configuration in the correct sequence, to return to a stabilized level flight attitude"
+       },
+       {
+        "code": "IR.IV.B.S2",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "num": "V",
+   "title": "Navigation Systems",
+   "tasks": [
+    {
+     "code": "IR.V.A",
+     "letter": "A",
+     "title": "Intercepting and Tracking Navigational Systems and DME Arcs",
+     "page": 18,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.V.A.K1",
+        "text": "Ground-based navigation (orientation, course determination, equipment, tests, and regulations), including procedures for intercepting and tracking courses and arcs"
+       },
+       {
+        "code": "IR.V.A.K2",
+        "text": "Satellite-based navigation (orientation, course determination, equipment, tests, regulations, interference, appropriate use of databases, Receiver Autonomous Integrity Monitoring (RAIM), and Wide Area Augmentation System (WAAS)), including procedures for intercepting and tracking courses and arcs"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.V.A.R1",
+        "text": "Management of automated navigation and autoflight systems"
+       },
+       {
+        "code": "IR.V.A.R2",
+        "text": "Distractions, task prioritization, loss of situational awareness, or disorientation"
+       },
+       {
+        "code": "IR.V.A.R3",
+        "text": "Limitations of the navigation system in use"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.V.A.S1",
+        "text": "Tune and identify the navigation facility/program the navigation system and verify system accuracy as appropriate for the equipment installed in the aircraft"
+       },
+       {
+        "code": "IR.V.A.S2",
+        "text": "Determine aircraft position relative to the navigational facility or waypoint"
+       },
+       {
+        "code": "IR.V.A.S3",
+        "text": "Set and orient to the course to be intercepted"
+       },
+       {
+        "code": "IR.V.A.S4",
+        "text": "Intercept the specified course at appropriate angle, inbound to or outbound from a navigational facility or waypoint"
+       },
+       {
+        "code": "IR.V.A.S5",
+        "text": "Maintain airspeed \u00b110 knots, altitude \u00b1100 feet, and selected headings \u00b15\u00b0"
+       },
+       {
+        "code": "IR.V.A.S6",
+        "text": "Apply proper correction to maintain a course, allowing no more than \u00be-scale deflection of the course deviation indicator (CDI). If a distance measuring equipment (DME) arc is selected, maintain that arc \u00b11 nautical mile"
+       },
+       {
+        "code": "IR.V.A.S7",
+        "text": "Recognize navigational system or facility failure, and when required, report the failure to air traffic control (ATC)"
+       },
+       {
+        "code": "IR.V.A.S8",
+        "text": "Use a multi-function display (MFD) and other graphical navigation displays, if installed, to monitor position, track wind drift, and to maintain situational awareness"
+       },
+       {
+        "code": "IR.V.A.S9",
+        "text": "At the discretion of the evaluator, use the autopilot to make appropriate course intercepts, if installed"
+       },
+       {
+        "code": "IR.V.A.S10",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.V.B",
+     "letter": "B",
+     "title": "Departure, En Route, and Arrival Operations",
+     "page": 19,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.V.B.K1",
+        "text": "Elements related to ATC routes, including departure procedures (DPs) and associated climb gradients; standard terminal arrival (STAR) procedures and associated constraints"
+       },
+       {
+        "code": "IR.V.B.K2",
+        "text": "Pilot/controller responsibilities, communication procedures, and ATC services available to pilots"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.V.B.R1",
+        "text": "ATC communications and compliance with published procedures"
+       },
+       {
+        "code": "IR.V.B.R2",
+        "text": "Limitations of traffic avoidance equipment"
+       },
+       {
+        "code": "IR.V.B.R3",
+        "text": "Responsibility to use \"see and avoid\" techniques when possible"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.V.B.S1",
+        "text": "Select, identify (as necessary) and use the appropriate communication and navigation facilities associated with the proposed flight"
+       },
+       {
+        "code": "IR.V.B.S2",
+        "text": "Perform the appropriate checklist items relative to the phase of flight"
+       },
+       {
+        "code": "IR.V.B.S3",
+        "text": "Use the current and appropriate paper or electronic navigation publications"
+       },
+       {
+        "code": "IR.V.B.S4",
+        "text": "Establish two-way communications with the proper controlling agency, use proper phraseology, and comply in a timely manner with all ATC instructions and airspace restrictions"
+       },
+       {
+        "code": "IR.V.B.S5",
+        "text": "Intercept all courses, radials, and bearings appropriate to the procedure, route, or clearance in a timely manner"
+       },
+       {
+        "code": "IR.V.B.S6",
+        "text": "Comply with all applicable charted procedures"
+       },
+       {
+        "code": "IR.V.B.S7",
+        "text": "Maintain airspeed \u00b110 knots, altitude \u00b1100 feet, and selected headings \u00b110\u00b0, and apply proper correction to maintain a course allowing no more than \u00be-scale deflection of the course deviation indicator (CDI)"
+       },
+       {
+        "code": "IR.V.B.S8",
+        "text": "Update/interpret weather in flight"
+       },
+       {
+        "code": "IR.V.B.S9",
+        "text": "Use displays of digital weather and aeronautical information, as applicable to maintain situational awareness"
+       },
+       {
+        "code": "IR.V.B.S10",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "num": "VI",
+   "title": "Instrument Approach Procedures",
+   "tasks": [
+    {
+     "code": "IR.VI.A",
+     "letter": "A",
+     "title": "Non-precision Approach",
+     "page": 20,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.VI.A.K1",
+        "text": "Procedures and limitations associated with a non-precision approach, including the differences between Localizer Performance (LP) and Lateral Navigation (LNAV) approach guidance"
+       },
+       {
+        "code": "IR.VI.A.K2",
+        "text": "Navigation system indications and annunciations expected during an area navigation (RNAV) approach"
+       },
+       {
+        "code": "IR.VI.A.K3",
+        "text": "Ground-based and satellite-based navigation systems used for a non-precision approach"
+       },
+       {
+        "code": "IR.VI.A.K4",
+        "text": "A stabilized approach, including energy management concepts"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.VI.A.R1",
+        "text": "Deviating from the assigned approach procedure"
+       },
+       {
+        "code": "IR.VI.A.R2",
+        "text": "Selecting a navigation frequency"
+       },
+       {
+        "code": "IR.VI.A.R3",
+        "text": "Management of automated navigation and autoflight systems"
+       },
+       {
+        "code": "IR.VI.A.R4",
+        "text": "Aircraft configuration during an approach and missed approach"
+       },
+       {
+        "code": "IR.VI.A.R5",
+        "text": "An unstable approach, including excessive descent rates"
+       },
+       {
+        "code": "IR.VI.A.R6",
+        "text": "Deteriorating weather conditions on approach"
+       },
+       {
+        "code": "IR.VI.A.R7",
+        "text": "Operating below the minimum descent altitude (MDA) without proper visual references"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.VI.A.S1",
+        "text": "Accomplish the non-precision instrument approaches selected by the evaluator"
+       },
+       {
+        "code": "IR.VI.A.S2",
+        "text": "Establish two-way communications with air traffic control (ATC) appropriate for the phase of flight or approach segment, and use proper communication phraseology"
+       },
+       {
+        "code": "IR.VI.A.S3",
+        "text": "Select, tune, identify, and confirm the operational status of navigation equipment to be used for the approach"
+       },
+       {
+        "code": "IR.VI.A.S4",
+        "text": "Comply with all clearances issued by ATC or the evaluator"
+       },
+       {
+        "code": "IR.VI.A.S5",
+        "text": "Recognize if any flight instrumentation is inaccurate or inoperative, and take appropriate action"
+       },
+       {
+        "code": "IR.VI.A.S6",
+        "text": "Advise ATC or the evaluator if unable to comply with a clearance"
+       },
+       {
+        "code": "IR.VI.A.S7",
+        "text": "Complete the appropriate checklist(s)"
+       },
+       {
+        "code": "IR.VI.A.S8",
+        "text": "Establish the appropriate aircraft configuration and airspeed considering meteorological and operating conditions"
+       },
+       {
+        "code": "IR.VI.A.S9",
+        "text": "Maintain altitude \u00b1100 feet, selected heading \u00b110\u00b0, airspeed \u00b110 knots, no more than \u00be scale CDI deflection, and accurately track radials, courses, or bearings, prior to beginning the final approach segment"
+       },
+       {
+        "code": "IR.VI.A.S10",
+        "text": "Adjust the published MDA and visibility criteria for the aircraft approach category, as appropriate, for factors that include Notices of Air Missions (NOTAMs), inoperative aircraft or navigation equipment, or inoperative visual aids associated with the landing environment, etc"
+       },
+       {
+        "code": "IR.VI.A.S11",
+        "text": "Establish a stabilized descent to the appropriate altitude"
+       },
+       {
+        "code": "IR.VI.A.S12",
+        "text": "For the final approach segment, maintain no more than \u00be scale CDI deflection, airspeed \u00b110 knots, and altitude, if applicable, above MDA +100/-0 feet to the Visual Descent Point (VDP) or missed approach point (MAP)"
+       },
+       {
+        "code": "IR.VI.A.S13",
+        "text": "Assess if the required visual references are available, and either initiate the missed approach procedure or continue for landing"
+       },
+       {
+        "code": "IR.VI.A.S14",
+        "text": "Use a multi-function display (MFD) and other graphical navigation displays, if installed, to monitor position, track wind drift, and to maintain situational awareness"
+       },
+       {
+        "code": "IR.VI.A.S15",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.VI.B",
+     "letter": "B",
+     "title": "Precision Approach",
+     "page": 21,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.VI.B.K1",
+        "text": "Procedures and limitations associated with a precision approach, including determining required descent rates and adjusting minimums in the case of inoperative equipment"
+       },
+       {
+        "code": "IR.VI.B.K2",
+        "text": "Navigation system displays, annunciations, and modes of operation"
+       },
+       {
+        "code": "IR.VI.B.K3",
+        "text": "Ground-based and satellite-based navigation systems (orientation, course determination, equipment, tests and regulations, interference, appropriate use of navigation data, signal integrity)"
+       },
+       {
+        "code": "IR.VI.B.K4",
+        "text": "A stabilized approach, including energy management concepts"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.VI.B.R1",
+        "text": "Deviating from the assigned approach procedure"
+       },
+       {
+        "code": "IR.VI.B.R2",
+        "text": "Selecting a navigation frequency"
+       },
+       {
+        "code": "IR.VI.B.R3",
+        "text": "Management of automated navigation and autoflight systems"
+       },
+       {
+        "code": "IR.VI.B.R4",
+        "text": "Aircraft configuration during an approach and missed approach"
+       },
+       {
+        "code": "IR.VI.B.R5",
+        "text": "An unstable approach, including excessive descent rates"
+       },
+       {
+        "code": "IR.VI.B.R6",
+        "text": "Deteriorating weather conditions on approach"
+       },
+       {
+        "code": "IR.VI.B.R7",
+        "text": "Continuing to descend below the Decision Altitude (DA)/Decision Height (DH) when the required visual references are not visible"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.VI.B.S1",
+        "text": "Accomplish the precision instrument approach(es) selected by the evaluator"
+       },
+       {
+        "code": "IR.VI.B.S2",
+        "text": "Establish two-way communications with air traffic control (ATC) appropriate for the phase of flight or approach segment, and use proper communication phraseology"
+       },
+       {
+        "code": "IR.VI.B.S3",
+        "text": "Select, tune, identify, and confirm the operational status of navigation equipment to be used for the approach"
+       },
+       {
+        "code": "IR.VI.B.S4",
+        "text": "Comply with all clearances issued by ATC or the evaluator"
+       },
+       {
+        "code": "IR.VI.B.S5",
+        "text": "Recognize if any flight instrumentation is inaccurate or inoperative, and take appropriate action"
+       },
+       {
+        "code": "IR.VI.B.S6",
+        "text": "Advise ATC or the evaluator if unable to comply with a clearance"
+       },
+       {
+        "code": "IR.VI.B.S7",
+        "text": "Complete the appropriate checklist(s)"
+       },
+       {
+        "code": "IR.VI.B.S8",
+        "text": "Establish the appropriate aircraft configuration and airspeed considering meteorological and operating conditions"
+       },
+       {
+        "code": "IR.VI.B.S9",
+        "text": "Maintain altitude \u00b1100 feet, selected heading \u00b110\u00b0, airspeed \u00b110 knots, no more than \u00be scale CDI deflection, and accurately track radials, courses, or bearings, prior to beginning the final approach segment"
+       },
+       {
+        "code": "IR.VI.B.S10",
+        "text": "Adjust the published DA/DH and visibility criteria for the aircraft approach category, as appropriate, to account for NOTAMS, inoperative aircraft or navigation equipment, or inoperative visual aids associated with the landing environment"
+       },
+       {
+        "code": "IR.VI.B.S11",
+        "text": "Establish a predetermined rate of descent at the point where vertical guidance begins, which approximates that required for the aircraft to follow the vertical guidance"
+       },
+       {
+        "code": "IR.VI.B.S12",
+        "text": "Maintain a stabilized final approach from the final approach fix (FAF) to DA/DH allowing no more than \u00be-scale deflection of either the vertical or lateral guidance indications, and maintain the desired airspeed \u00b110 knots"
+       },
+       {
+        "code": "IR.VI.B.S13",
+        "text": "Immediately initiate the missed approach procedure when at the DA/DH, and the required visual references for the runway are not unmistakably visible and identifiable"
+       },
+       {
+        "code": "IR.VI.B.S14",
+        "text": "Transition to a normal landing approach (missed approach for seaplanes) only when the airplane is in a position from which a descent to a landing on the runway can be made at a normal rate of descent using normal maneuvering"
+       },
+       {
+        "code": "IR.VI.B.S15",
+        "text": "Maintain a stabilized visual flight path from the DA/DH to the runway aiming point where a normal landing may be accomplished within the touchdown zone"
+       },
+       {
+        "code": "IR.VI.B.S16",
+        "text": "Use a multi-function display (MFD) and other graphical navigation displays, if installed, to monitor position, track wind drift, and to maintain situational awareness"
+       },
+       {
+        "code": "IR.VI.B.S17",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.VI.C",
+     "letter": "C",
+     "title": "Missed Approach",
+     "page": 22,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.VI.C.K1",
+        "text": "Elements related to missed approach procedures and limitations associated with standard instrument approaches, including while using a flight management system (FMS) or autopilot, if equipped"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.VI.C.R1",
+        "text": "Deviations from prescribed procedures or ATC instructions"
+       },
+       {
+        "code": "IR.VI.C.R2",
+        "text": "Holding, diverting, or electing to fly the approach again"
+       },
+       {
+        "code": "IR.VI.C.R3",
+        "text": "Aircraft configuration during an approach and missed approach"
+       },
+       {
+        "code": "IR.VI.C.R4",
+        "text": "Factors that might lead to executing a missed approach procedure before the MAP or to a go-around below DA, DH, or MDA, as applicable"
+       },
+       {
+        "code": "IR.VI.C.R5",
+        "text": "Management of automated navigation and autoflight systems"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.VI.C.S1",
+        "text": "Promptly initiate the missed approach procedure and report it to ATC"
+       },
+       {
+        "code": "IR.VI.C.S2",
+        "text": "Apply the appropriate power setting for the flight condition and establish a pitch attitude necessary to obtain the desired performance"
+       },
+       {
+        "code": "IR.VI.C.S3",
+        "text": "Configure the airplane in accordance with airplane manufacturer\u2019s instructions, establish a positive rate of climb, and accelerate to the appropriate airspeed, \u00b110 knots"
+       },
+       {
+        "code": "IR.VI.C.S4",
+        "text": "Follow the recommended checklist items appropriate to the missed approach/go-around procedure"
+       },
+       {
+        "code": "IR.VI.C.S5",
+        "text": "Comply with the published or alternate missed approach procedure"
+       },
+       {
+        "code": "IR.VI.C.S6",
+        "text": "Advise ATC or the evaluator if unable to comply with a clearance, restriction, or climb gradient"
+       },
+       {
+        "code": "IR.VI.C.S7",
+        "text": "Maintain the recommended airspeed \u00b110 knots; heading, course, or bearing \u00b110\u00b0; and altitude(s) \u00b1100 feet during the missed approach procedure"
+       },
+       {
+        "code": "IR.VI.C.S8",
+        "text": "Use an MFD and other graphical navigation displays, if installed, to monitor position and track to help navigate the missed approach"
+       },
+       {
+        "code": "IR.VI.C.S9",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       },
+       {
+        "code": "IR.VI.C.S10",
+        "text": "Request ATC clearance to attempt another approach, proceed to the alternate airport, holding fix, or other clearance limit, as appropriate, or as directed by the evaluator"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.VI.D",
+     "letter": "D",
+     "title": "Circling Approach",
+     "page": 23,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.VI.D.K1",
+        "text": "Elements related to circling approach procedures and limitations, including approach categories and related airspeed restrictions"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.VI.D.R1",
+        "text": "Prescribed circling approach procedures"
+       },
+       {
+        "code": "IR.VI.D.R2",
+        "text": "Executing a circling approach at night or with marginal visibility"
+       },
+       {
+        "code": "IR.VI.D.R3",
+        "text": "Losing visual contact with an identifiable part of the airport"
+       },
+       {
+        "code": "IR.VI.D.R4",
+        "text": "Management of automated navigation and autoflight systems"
+       },
+       {
+        "code": "IR.VI.D.R5",
+        "text": "Management of altitude, airspeed, or distance while circling"
+       },
+       {
+        "code": "IR.VI.D.R6",
+        "text": "Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)"
+       },
+       {
+        "code": "IR.VI.D.R7",
+        "text": "Executing a missed approach after the MAP while circling"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.VI.D.S1",
+        "text": "Comply with the circling approach procedure considering turbulence, windshear, and the maneuvering capability and approach category of the aircraft"
+       },
+       {
+        "code": "IR.VI.D.S2",
+        "text": "Confirm the direction of traffic and adhere to all restrictions and instructions issued by ATC or the evaluator"
+       },
+       {
+        "code": "IR.VI.D.S3",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       },
+       {
+        "code": "IR.VI.D.S4",
+        "text": "Establish the approach and landing configuration. Maintain a stabilized approach and a descent rate that ensures arrival at the MDA, or the preselected circling altitude above the MDA, prior to the missed approach point"
+       },
+       {
+        "code": "IR.VI.D.S5",
+        "text": "Maintain airspeed \u00b110 knots, desired heading/track \u00b110\u00b0, and altitude +100/-0 feet until descending below the MDA or the preselected circling altitude above the MDA"
+       },
+       {
+        "code": "IR.VI.D.S6",
+        "text": "Visually maneuver to a base or downwind leg appropriate for the landing runway and environmental conditions"
+       },
+       {
+        "code": "IR.VI.D.S7",
+        "text": "If a missed approach occurs, turn in the appropriate direction using the correct procedure and appropriately configure the airplane"
+       },
+       {
+        "code": "IR.VI.D.S8",
+        "text": "If landing, initiate a stabilized descent. Touch down on the first one-third of the selected runway without excessive maneuvering, without exceeding the normal operating limits of the airplane, and without exceeding 30\u00b0 of bank"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.VI.E",
+     "letter": "E",
+     "title": "Landing from an Instrument Approach",
+     "page": 24,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.VI.E.K1",
+        "text": "Elements related to the pilot\u2019s responsibilities, and the environmental, operational, and meteorological factors that affect landing from a straight-in or circling approach"
+       },
+       {
+        "code": "IR.VI.E.K2",
+        "text": "Airport signs, markings, and lighting, including approach lighting systems"
+       },
+       {
+        "code": "IR.VI.E.K3",
+        "text": "Appropriate landing profiles and aircraft configurations"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.VI.E.R1",
+        "text": "Attempting to land from an unstable approach"
+       },
+       {
+        "code": "IR.VI.E.R2",
+        "text": "Flying below the glidepath"
+       },
+       {
+        "code": "IR.VI.E.R3",
+        "text": "Transitioning from instrument to visual references for landing"
+       },
+       {
+        "code": "IR.VI.E.R4",
+        "text": "Aircraft configuration for landing"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.VI.E.S1",
+        "text": "Transition at the DA/DH, MDA, or visual descent point (VDP) to a visual flight condition, allowing for safe visual maneuvering and a normal landing"
+       },
+       {
+        "code": "IR.VI.E.S2",
+        "text": "Adhere to all ATC or evaluator advisories, such as NOTAMs, windshear, wake turbulence, runway surface, and other operational considerations"
+       },
+       {
+        "code": "IR.VI.E.S3",
+        "text": "Complete the appropriate checklist(s)"
+       },
+       {
+        "code": "IR.VI.E.S4",
+        "text": "Maintain positive airplane control throughout the landing maneuver"
+       },
+       {
+        "code": "IR.VI.E.S5",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "num": "VII",
+   "title": "Emergency Operations",
+   "tasks": [
+    {
+     "code": "IR.VII.A",
+     "letter": "A",
+     "title": "Loss of Communications",
+     "page": 26,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.VII.A.K1",
+        "text": "Procedures to follow in the event of lost communication during various phases of flight, including techniques for reestablishing communications, when it is acceptable to deviate from an instrument flight rules (IFR) clearance, and when to begin an approach at the destination"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.VII.A.R1",
+        "text": "Possible reasons for loss of communication"
+       },
+       {
+        "code": "IR.VII.A.R2",
+        "text": "Deviation from procedures for lost communications"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.VII.A.S1",
+        "text": "Recognize a simulated loss of communication"
+       },
+       {
+        "code": "IR.VII.A.S2",
+        "text": "Simulate actions to re-establish communication"
+       },
+       {
+        "code": "IR.VII.A.S3",
+        "text": "Determine whether to continue to flight plan destination or deviate"
+       },
+       {
+        "code": "IR.VII.A.S4",
+        "text": "Determine appropriate time to begin an approach"
+       },
+       {
+        "code": "IR.VII.A.S5",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.VII.B",
+     "letter": "B",
+     "title": "One Engine Inoperative (Simulated) during Straight-and-Level Flight and Turns (AMEL, AMES)",
+     "page": 26,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.VII.B.K1",
+        "text": "Procedures used if engine failure occurs during straight-and-level flight and turns while on instruments"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.VII.B.R1",
+        "text": "Identification of the inoperative engine"
+       },
+       {
+        "code": "IR.VII.B.R2",
+        "text": "Inability to climb or maintain altitude with an inoperative engine"
+       },
+       {
+        "code": "IR.VII.B.R3",
+        "text": "Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)"
+       },
+       {
+        "code": "IR.VII.B.R4",
+        "text": "Distractions, task prioritization, loss of situational awareness, or disorientation"
+       },
+       {
+        "code": "IR.VII.B.R5",
+        "text": "Fuel management during single-engine operation"
+       },
+       {
+        "code": "IR.VII.B.R6",
+        "text": "Configuring the aircraft"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.VII.B.S1",
+        "text": "Promptly recognize an engine failure and maintain positive aircraft control"
+       },
+       {
+        "code": "IR.VII.B.S2",
+        "text": "Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)"
+       },
+       {
+        "code": "IR.VII.B.S3",
+        "text": "Establish the best engine-inoperative airspeed and trim the airplane"
+       },
+       {
+        "code": "IR.VII.B.S4",
+        "text": "Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required"
+       },
+       {
+        "code": "IR.VII.B.S5",
+        "text": "Verify the prescribed checklist procedures used for securing the inoperative engine"
+       },
+       {
+        "code": "IR.VII.B.S6",
+        "text": "Attempt to determine and resolve the reason for the engine failure"
+       },
+       {
+        "code": "IR.VII.B.S7",
+        "text": "Monitor engine functions and make necessary adjustments"
+       },
+       {
+        "code": "IR.VII.B.S8",
+        "text": "Maintain the specified altitude \u00b1100 feet or minimum sink rate if applicable, airspeed \u00b110 knots, and the specified heading \u00b110\u00b0"
+       },
+       {
+        "code": "IR.VII.B.S9",
+        "text": "Assess the aircraft\u2019s performance capability and decide an appropriate action to ensure a safe landing"
+       },
+       {
+        "code": "IR.VII.B.S10",
+        "text": "Maintain control and fly within the aircraft\u2019s operating limitations"
+       },
+       {
+        "code": "IR.VII.B.S11",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.VII.C",
+     "letter": "C",
+     "title": "Instrument Approach and Landing with an Inoperative Engine (Simulated) (AMEL, AMES)",
+     "page": 27,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.VII.C.K1",
+        "text": "Instrument approach procedures with one engine inoperative"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.VII.C.R1",
+        "text": "Potential engine failure during approach and landing"
+       },
+       {
+        "code": "IR.VII.C.R2",
+        "text": "[Archived]"
+       },
+       {
+        "code": "IR.VII.C.R3",
+        "text": "Configuring the airplane"
+       },
+       {
+        "code": "IR.VII.C.R4",
+        "text": "Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)"
+       },
+       {
+        "code": "IR.VII.C.R5",
+        "text": "Distractions, task prioritization, loss of situational awareness, or disorientation"
+       },
+       {
+        "code": "IR.VII.C.R6",
+        "text": "Performing a go-around/rejected landing with an engine failure"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.VII.C.S1",
+        "text": "Promptly recognize an engine failure and maintain positive aircraft control"
+       },
+       {
+        "code": "IR.VII.C.S2",
+        "text": "Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)"
+       },
+       {
+        "code": "IR.VII.C.S3",
+        "text": "Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required"
+       },
+       {
+        "code": "IR.VII.C.S4",
+        "text": "Follow the manufacturer\u2019s recommended emergency procedures and complete the appropriate checklist"
+       },
+       {
+        "code": "IR.VII.C.S5",
+        "text": "Monitor the operating engine and aircraft systems and make adjustments as necessary"
+       },
+       {
+        "code": "IR.VII.C.S6",
+        "text": "Request and follow an actual or a simulated air traffic control (ATC) clearance for an instrument approach"
+       },
+       {
+        "code": "IR.VII.C.S7",
+        "text": "Maintain altitude \u00b1100 feet or minimum sink rate if applicable, airspeed \u00b110 knots, and selected heading \u00b110\u00b0"
+       },
+       {
+        "code": "IR.VII.C.S8",
+        "text": "Establish a rate of descent that ensures arrival at the minimum descent altitude (MDA) or decision altitude (DA)/decision height (DH) with the airplane in a position from which a descent to a landing on the intended runway can be made, either straight in or circling as appropriate"
+       },
+       {
+        "code": "IR.VII.C.S9",
+        "text": "On final approach segment, maintain vertical (as applicable) and lateral guidance within \u00be-scale deflection"
+       },
+       {
+        "code": "IR.VII.C.S10",
+        "text": "Maintain control and fly within the aircraft\u2019s operating limitations"
+       },
+       {
+        "code": "IR.VII.C.S11",
+        "text": "Comply with the published criteria for the aircraft approach category if circling"
+       },
+       {
+        "code": "IR.VII.C.S12",
+        "text": "Execute a landing"
+       },
+       {
+        "code": "IR.VII.C.S13",
+        "text": "Complete the appropriate checklist(s)"
+       },
+       {
+        "code": "IR.VII.C.S14",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       }
+      ]
+     }
+    },
+    {
+     "code": "IR.VII.D",
+     "letter": "D",
+     "title": "Approach with Loss of Primary Flight Instrument Indicators",
+     "page": 28,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.VII.D.K1",
+        "text": "Recognizing if primary flight instruments are inaccurate or inoperative, and advising ATC or the evaluator"
+       },
+       {
+        "code": "IR.VII.D.K2",
+        "text": "Possible failure modes of primary instruments and how to correct or minimize the effect of the loss"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.VII.D.R1",
+        "text": "Use of secondary flight displays when primary displays have failed"
+       },
+       {
+        "code": "IR.VII.D.R2",
+        "text": "Maintaining aircraft control"
+       },
+       {
+        "code": "IR.VII.D.R3",
+        "text": "Distractions, task prioritization, loss of situational awareness, or disorientation"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.VII.D.S1",
+        "text": "Advise ATC or the evaluator if unable to comply with a clearance"
+       },
+       {
+        "code": "IR.VII.D.S2",
+        "text": "Complete a non-precision instrument approach without the use of the primary flight instruments using the skill elements of the non-precision approach Task (see Area of Operation VI, Task A)"
+       },
+       {
+        "code": "IR.VII.D.S3",
+        "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "num": "VIII",
+   "title": "Postflight Procedures",
+   "tasks": [
+    {
+     "code": "IR.VIII.A",
+     "letter": "A",
+     "title": "Checking Instruments and Equipment",
+     "page": 30,
+     "elements": {
+      "K": [
+       {
+        "code": "IR.VIII.A.K1",
+        "text": "Procedures for documenting in-flight/postflight discrepancies"
+       }
+      ],
+      "R": [
+       {
+        "code": "IR.VIII.A.R1",
+        "text": "Performance and documentation of postflight inspection and aircraft discrepancies"
+       }
+      ],
+      "S": [
+       {
+        "code": "IR.VIII.A.S1",
+        "text": "Conduct a postflight inspection and document discrepancies and servicing requirements, if any. 25 Appendix 1: Practical Test Roles, Responsibilities, and Outcomes Instrument Rating \u2013 Airplane ACS (FAA-S-ACS-8C) Appendix 1: Practical Test Roles, Responsibilities, and Outcomes Eligibility Requirements for an Instrument Rating The prerequisite requirements and general eligibility for a practical test and the specific requirements for the issuance of an Instrument Rating \u2013 Airplane can be found in 14 CFR part 61, sections 61.39(a) and 61.65. If an applicant holds both single-engine and multiengine class ratings on a pilot certificate and takes the instrument rating practical test in a single-engine airplane, the certificate issued must bear the limitation \u201cMultiengine Limited to VFR Only.\u201d If the applicant takes the test in a multiengine airplane, the instrument privileges will be automatically conferred for the airplane single-engine rating. In accordance with 14 CFR part 61, sections 61.39, and 61.65(a)(7), the applicant must pass the airman knowledge test before taking the practical test, if applicable to the certificate or rating sought. Applicants who hold an instrument rating are not required to take an additional instrument knowledge test. The knowledge test corresponding to this ACS appears in the table below. Test Code Test Name Number of Questions Age Allotted Time Passing Score IRA Instrument Rating - Airplane 60 15 2.5 70 Use of the ACS During a Practical Test The practical test is conducted in accordance with the ACS and FAA regulations that are current as of the date of the test. The Areas of Operation in this ACS align with the Areas of Operation found in 14 CFR part 61, section 61.65(c). Each Area of Operation includes Tasks appropriate to that Area of Operation. Each Task contains an Objective stating what the applicant must know, consider, and/or do. The ACS then lists the aeronautical knowledge, risk management, and skill elements relevant to the specific Task, along with the conditions and standards for acceptable performance. The ACS uses Notes to emphasize special considerations. During the ground and flight portion of the practical test, the FAA expects evaluators to assess the applicant's mastery of the topic in accordance with the level of learning most appropriate for the specified Task. The oral questioning will continue throughout the entire practical test. For some topics, the evaluator will ask the applicant to describe or explain. For other items, the evaluator will assess the applicant's understanding by providing a scenario that requires the applicant to appropriately apply and/or correlate knowledge, experience, and information to the circumstances of the given scenario. The flight portion of the practical test requires the applicant to demonstrate knowledge, risk management, flight proficiency, and operational skill in accordance with the ACS. The elements within each Task in this ACS are coded according to a scheme that includes four components. For example,"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

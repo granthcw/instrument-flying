@@ -1,0 +1,214 @@
+{
+ "ifh": {
+  "title": "Instrument Flying Handbook",
+  "code": "FAA-H-8083-15B",
+  "parts": [
+   {
+    "key": "1",
+    "title": "The National Airspace System",
+    "file": "pdfs/ifh/ch01.pdf",
+    "pages": 32,
+    "firstFolio": 1,
+    "sizeKB": 12308
+   },
+   {
+    "key": "2",
+    "title": "The Air Traffic Control System",
+    "file": "pdfs/ifh/ch02.pdf",
+    "pages": 16,
+    "firstFolio": 1,
+    "sizeKB": 2314
+   },
+   {
+    "key": "3",
+    "title": "Human Factors",
+    "file": "pdfs/ifh/ch03.pdf",
+    "pages": 10,
+    "firstFolio": 1,
+    "sizeKB": 1879
+   },
+   {
+    "key": "4",
+    "title": "Aerodynamic Factors",
+    "file": "pdfs/ifh/ch04.pdf",
+    "pages": 18,
+    "firstFolio": 1,
+    "sizeKB": 2252
+   },
+   {
+    "key": "5",
+    "title": "Flight Instruments",
+    "file": "pdfs/ifh/ch05.pdf",
+    "pages": 38,
+    "firstFolio": 1,
+    "sizeKB": 10449
+   },
+   {
+    "key": "6",
+    "title": "Airplane Attitude Instrument Flying",
+    "file": "pdfs/ifh/ch06.pdf",
+    "pages": 28,
+    "firstFolio": 1,
+    "sizeKB": 10718
+   },
+   {
+    "key": "7",
+    "title": "Airplane Basic Flight Maneuvers",
+    "file": "pdfs/ifh/ch07.pdf",
+    "pages": 62,
+    "firstFolio": 1,
+    "sizeKB": 13413
+   },
+   {
+    "key": "8",
+    "title": "Helicopter Attitude Instrument Flying",
+    "file": "pdfs/ifh/ch08.pdf",
+    "pages": 20,
+    "firstFolio": 1,
+    "sizeKB": 5069
+   },
+   {
+    "key": "9",
+    "title": "Navigation Systems",
+    "file": "pdfs/ifh/ch09.pdf",
+    "pages": 48,
+    "firstFolio": 1,
+    "sizeKB": 10961
+   },
+   {
+    "key": "10",
+    "title": "IFR Flight",
+    "file": "pdfs/ifh/ch10.pdf",
+    "pages": 34,
+    "firstFolio": 1,
+    "sizeKB": 4083
+   },
+   {
+    "key": "11",
+    "title": "Emergency Operations",
+    "file": "pdfs/ifh/ch11.pdf",
+    "pages": 14,
+    "firstFolio": 1,
+    "sizeKB": 4825
+   },
+   {
+    "key": "A",
+    "title": "Appendix A: Clearance Shorthand",
+    "file": "pdfs/ifh/appA.pdf",
+    "pages": 2,
+    "firstFolio": 1,
+    "sizeKB": 119
+   },
+   {
+    "key": "B",
+    "title": "Appendix B: Instrument Training Lesson Guide",
+    "file": "pdfs/ifh/appB.pdf",
+    "pages": 4,
+    "firstFolio": 1,
+    "sizeKB": 179
+   },
+   {
+    "key": "G",
+    "title": "Glossary",
+    "file": "pdfs/ifh/glossary.pdf",
+    "pages": 20,
+    "firstFolio": 1,
+    "sizeKB": 229
+   },
+   {
+    "key": "I",
+    "title": "Index",
+    "file": "pdfs/ifh/index.pdf",
+    "pages": 6,
+    "firstFolio": 1,
+    "sizeKB": 133
+   }
+  ]
+ },
+ "iph": {
+  "title": "Instrument Procedures Handbook",
+  "code": "FAA-H-8083-16B",
+  "parts": [
+   {
+    "key": "1",
+    "title": "Departure Procedures",
+    "file": "pdfs/iph/ch01.pdf",
+    "pages": 44,
+    "firstFolio": 1,
+    "sizeKB": 6589
+   },
+   {
+    "key": "2",
+    "title": "En Route Operations",
+    "file": "pdfs/iph/ch02.pdf",
+    "pages": 52,
+    "firstFolio": 1,
+    "sizeKB": 5521
+   },
+   {
+    "key": "3",
+    "title": "Arrivals",
+    "file": "pdfs/iph/ch03.pdf",
+    "pages": 28,
+    "firstFolio": 1,
+    "sizeKB": 3259
+   },
+   {
+    "key": "4",
+    "title": "Approaches",
+    "file": "pdfs/iph/ch04.pdf",
+    "pages": 92,
+    "firstFolio": 1,
+    "sizeKB": 11891
+   },
+   {
+    "key": "5",
+    "title": "Improvement Plans",
+    "file": "pdfs/iph/ch05.pdf",
+    "pages": 18,
+    "firstFolio": 1,
+    "sizeKB": 6708
+   },
+   {
+    "key": "6",
+    "title": "Airborne Navigation Databases",
+    "file": "pdfs/iph/ch06.pdf",
+    "pages": 18,
+    "firstFolio": 1,
+    "sizeKB": 1643
+   },
+   {
+    "key": "7",
+    "title": "Helicopter Instrument Procedures",
+    "file": "pdfs/iph/ch07.pdf",
+    "pages": 18,
+    "firstFolio": 1,
+    "sizeKB": 1004
+   },
+   {
+    "key": "A",
+    "title": "Appendix A: Emergency Procedures",
+    "file": "pdfs/iph/appA.pdf",
+    "pages": 6,
+    "firstFolio": 1,
+    "sizeKB": 60
+   },
+   {
+    "key": "B",
+    "title": "Appendix B: Acronyms",
+    "file": "pdfs/iph/appB.pdf",
+    "pages": 8,
+    "firstFolio": 1,
+    "sizeKB": 46
+   },
+   {
+    "key": "G",
+    "title": "Glossary",
+    "file": "pdfs/iph/glossary.pdf",
+    "pages": 12,
+    "firstFolio": 1,
+    "sizeKB": 99
+   }
+  ]
+ }
+}
