@@ -108,6 +108,29 @@ def main():
                     fail(f"{topic['id']}: '{sec['title']}' not found on "
                          f"{r['doc']} ch{r['chapter']} page {page}")
 
+    # ---- a resolved section must be the only one of its name in the chapter,
+    # and must not be the chapter's cover page. Both handbooks repeat headings,
+    # so "the heading is on this page" is not enough to prove it is the right one.
+    titles_by_chapter = {}
+    for doc, sections in outline.items():
+        for sec in sections:
+            titles_by_chapter.setdefault((doc, sec["chapter"]), []).append(sec)
+    for topic in topics:
+        for r in topic["readings"]:
+            siblings = titles_by_chapter.get((r["doc"], r["chapter"]), [])
+            for sec in r.get("sections", []):
+                same = [s for s in siblings if s["title"].lower() == sec["title"].lower()]
+                if len(same) > 1 and not sec.get("folio"):
+                    fail(f"{topic['id']}: '{sec['title']}' occurs {len(same)}x in "
+                         f"{r['doc']} ch{r['chapter']} and is not pinned to a folio")
+                chapter_title = next((p["title"] for p in docs[r["doc"]]["parts"]
+                                      if p["key"] == r["chapter"]), "")
+                if sec["page"] == 1 and sec["title"].lower() == chapter_title.lower():
+                    fail(f"{topic['id']}: '{sec['title']}' resolved to the chapter "
+                         f"cover page ({r['doc']} ch{r['chapter']} p1)")
+        if topic["pageCount"] < 4:
+            fail(f"{topic['id']}: only {topic['pageCount']} pages of reading, likely a stub")
+
     # ---- ACS coverage
     tasks = {t["code"] for a in acs["areas"] for t in a["tasks"]}
     used = {c for t in topics for c in t.get("acs", [])}

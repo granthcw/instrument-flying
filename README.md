@@ -26,6 +26,25 @@ It remembers your place in each chapter and when you last reviewed each topic.
 Freshness is colour-coded: green under 14 days, amber to 30, red past that or
 never reviewed. The home page surfaces what is due.
 
+### On a phone and a tablet
+
+The layout follows the reading area, because a handbook page is the thing the
+screen is for.
+
+- **Desktop** — agenda, page and checkpoints side by side.
+- **Tablet** — agenda beside the page, with the checkpoints as a drawer that
+  opens *over* the page rather than shortening it. A whole page fits.
+- **Phone** — the session drops the embedded reader and becomes prep mode: the
+  topic, its readings with folio references, and the checkpoints. Tapping a
+  reading opens the full-screen reader, and going back returns you to the same
+  topic and reading.
+
+The reader has a zoom control (100–300%), because at fit-width a two-column
+handbook page puts 9pt text at about 5px on a phone. Zooming re-renders the
+page rather than scaling the canvas up, so it stays sharp, and pans sideways.
+Canvases are capped in size and released once you scroll away, which is what
+keeps a 92-page chapter at full zoom from exhausting mobile Safari.
+
 ## Progress and privacy
 
 Progress lives in `localStorage` in the browser you are using — nothing is sent
@@ -84,6 +103,10 @@ one topic, and — the check that matters — the text of each range's first pag
 actually contains the section heading it resolved from. That is what catches a
 page reference drifting off its material.
 
+It also rejects a reading whose title is ambiguous within its chapter but not
+pinned, and one that resolves to a chapter's cover page — "the heading is on
+this page" is not enough to prove it is the right page when a heading repeats.
+
 ## Editing the topic map
 
 `data/topics.json` is the hand-authored part and the reason the site is more
@@ -110,6 +133,18 @@ The build looks each title up in the extracted outline and works out the page
 span, so page numbers never have to be typed or maintained by hand. A reading
 can also use `"sections": [...]` to span several headings, or `"pages": [3, 7]`
 where no heading lines up.
+
+Both handbooks repeat headings inside a chapter — IPH chapter 1 has a
+"Departure Procedures" cover page at 1-1 and the real section at 1-16, and IFH
+chapter 7 runs its whole set of headings twice, once for analog panels and once
+for electronic flight displays. An ambiguous title is a build error rather than
+a silent guess; pin the one you mean with a folio:
+
+```json
+{ "doc": "iph", "chapter": "1", "section": "Departure Procedures", "folio": "1-16" }
+```
+
+`"sections"` entries take the same `{ "title", "folio" }` form when they need it.
 
 ## Layout
 

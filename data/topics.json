@@ -288,7 +288,9 @@
     "doc": "ifh",
     "chapter": "6",
     "section": "Learning Methods",
-    "note": "Analog instrumentation"
+    "folio": "6-2",
+    "label": "Learning methods",
+    "note": "Section I \u2014 analog instrumentation"
    },
    {
     "doc": "ifh",
@@ -298,8 +300,15 @@
    {
     "doc": "ifh",
     "chapter": "6",
-    "section": "Scanning Techniques",
-    "note": "Electronic flight display"
+    "section": "Learning Methods",
+    "folio": "6-16",
+    "label": "Learning methods",
+    "note": "Section II \u2014 electronic flight display"
+   },
+   {
+    "doc": "ifh",
+    "chapter": "6",
+    "section": "Scanning Techniques"
    },
    {
     "doc": "ifh",
@@ -328,22 +337,34 @@
    {
     "doc": "ifh",
     "chapter": "7",
-    "section": "Straight-and-Level Flight"
+    "sections": [
+     {
+      "title": "Straight-and-Level Flight",
+      "folio": "7-2"
+     },
+     {
+      "title": "Instrument Takeoff",
+      "folio": "7-29"
+     }
+    ],
+    "label": "Straight-and-level, climbs, descents, turns, takeoff",
+    "note": "Section I \u2014 analog panel. Read this or the glass version below, whichever matches your aircraft."
    },
    {
     "doc": "ifh",
     "chapter": "7",
-    "section": "Straight Climbs and Descents"
-   },
-   {
-    "doc": "ifh",
-    "chapter": "7",
-    "section": "Turns"
-   },
-   {
-    "doc": "ifh",
-    "chapter": "7",
-    "section": "Instrument Takeoff"
+    "sections": [
+     {
+      "title": "Straight-and-Level Flight",
+      "folio": "7-34"
+     },
+     {
+      "title": "Instrument Takeoff",
+      "folio": "7-60"
+     }
+    ],
+    "label": "The same maneuvers on an electronic flight display",
+    "note": "Section II \u2014 glass panel"
    }
   ],
   "checkpoints": [
@@ -398,7 +419,9 @@
    {
     "doc": "ifh",
     "chapter": "7",
-    "section": "Basic Instrument Flight Patterns"
+    "section": "Basic Instrument Flight Patterns",
+    "folio": "7-30",
+    "note": "Section I \u2014 analog panel; the glass-panel version is at 7-61"
    }
   ],
   "checkpoints": [
@@ -542,7 +565,20 @@
    {
     "doc": "iph",
     "chapter": "6",
-    "section": "Introduction"
+    "sections": [
+     "Airborne Navigation Database Standardization",
+     "Path and Terminator Concept"
+    ],
+    "label": "Standardization and path terminators"
+   },
+   {
+    "doc": "iph",
+    "chapter": "6",
+    "sections": [
+     "Role of the Database Provider",
+     "Operational Limitations of Airborne Navigation Databases"
+    ],
+    "label": "Providers and operational limitations"
    }
   ],
   "checkpoints": [
@@ -629,6 +665,7 @@
     "doc": "iph",
     "chapter": "1",
     "section": "Departure Procedures",
+    "folio": "1-16",
     "note": "Design criteria and obstacle clearance"
    },
    {

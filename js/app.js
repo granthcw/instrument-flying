@@ -61,8 +61,8 @@ function route() {
     const params = {};
     names.forEach((n, i) => { params[n] = match[i + 1]; });
     const ctx = { data, params, query, onLeave: (fn) => leaveHandlers.push(fn) };
+    document.body.classList.remove('wide');
     outlet.replaceChildren(view.render(ctx));
-    document.body.classList.toggle('wide', path.startsWith('/session') || path.startsWith('/read'));
     window.scrollTo(0, 0);
     highlight(path);
     return;

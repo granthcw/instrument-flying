@@ -23,11 +23,13 @@
     "sections": [
      {
       "title": "Airspace Classification",
-      "page": 2
+      "page": 2,
+      "folio": "1-2"
      },
      {
       "title": "Other Routing",
-      "page": 5
+      "page": 5,
+      "folio": "1-5"
      }
     ]
    },
@@ -44,7 +46,8 @@
     "sections": [
      {
       "title": "IFR En Route Charts",
-      "page": 6
+      "page": 6,
+      "folio": "1-6"
      }
     ]
    },
@@ -61,7 +64,8 @@
     "sections": [
      {
       "title": "New Technologies",
-      "page": 10
+      "page": 10,
+      "folio": "1-10"
      }
     ]
    }
@@ -99,7 +103,8 @@
     "sections": [
      {
       "title": "Instrument Approach Procedure Charts",
-      "page": 12
+      "page": 12,
+      "folio": "1-12"
      }
     ]
    },
@@ -116,7 +121,8 @@
     "sections": [
      {
       "title": "Terminal Arrival Area (TAA)",
-      "page": 18
+      "page": 18,
+      "folio": "1-18"
      }
     ]
    },
@@ -133,7 +139,8 @@
     "sections": [
      {
       "title": "Instrument Approach Charts",
-      "page": 9
+      "page": 9,
+      "folio": "4-9"
      }
     ]
    }
@@ -171,7 +178,8 @@
     "sections": [
      {
       "title": "Communication Equipment",
-      "page": 2
+      "page": 2,
+      "folio": "2-2"
      }
     ]
    },
@@ -188,7 +196,8 @@
     "sections": [
      {
       "title": "Communication Facilities",
-      "page": 4
+      "page": 4,
+      "folio": "2-4"
      }
     ]
    },
@@ -205,7 +214,8 @@
     "sections": [
      {
       "title": "Control Sequence",
-      "page": 13
+      "page": 13,
+      "folio": "2-13"
      }
     ]
    }
@@ -243,7 +253,8 @@
     "sections": [
      {
       "title": "Sensory Systems for Orientation",
-      "page": 2
+      "page": 2,
+      "folio": "3-2"
      }
     ]
    },
@@ -260,7 +271,8 @@
     "sections": [
      {
       "title": "Illusions Leading to Spatial Disorientation",
-      "page": 5
+      "page": 5,
+      "folio": "3-5"
      }
     ]
    },
@@ -277,7 +289,8 @@
     "sections": [
      {
       "title": "Coping with Spatial Disorientation",
-      "page": 8
+      "page": 8,
+      "folio": "3-8"
      }
     ]
    },
@@ -294,7 +307,8 @@
     "sections": [
      {
       "title": "Optical Illusions",
-      "page": 9
+      "page": 9,
+      "folio": "3-9"
      }
     ]
    }
@@ -332,7 +346,8 @@
     "sections": [
      {
       "title": "Drag Curves",
-      "page": 6
+      "page": 6,
+      "folio": "4-6"
      }
     ]
    },
@@ -349,7 +364,8 @@
     "sections": [
      {
       "title": "Slow-Speed Flight",
-      "page": 8
+      "page": 8,
+      "folio": "4-8"
      }
     ]
    },
@@ -366,7 +382,8 @@
     "sections": [
      {
       "title": "Turns",
-      "page": 10
+      "page": 10,
+      "folio": "4-10"
      }
     ]
    },
@@ -383,7 +400,8 @@
     "sections": [
      {
       "title": "Icing",
-      "page": 13
+      "page": 13,
+      "folio": "4-13"
      }
     ]
    }
@@ -422,7 +440,8 @@
     "sections": [
      {
       "title": "Pitot/Static Systems",
-      "page": 2
+      "page": 2,
+      "folio": "5-2"
      }
     ]
    },
@@ -439,7 +458,8 @@
     "sections": [
      {
       "title": "Pitot/Static Instruments",
-      "page": 3
+      "page": 3,
+      "folio": "5-3"
      }
     ]
    },
@@ -456,7 +476,8 @@
     "sections": [
      {
       "title": "Magnetism",
-      "page": 10
+      "page": 10,
+      "folio": "5-10"
      }
     ]
    },
@@ -473,7 +494,8 @@
     "sections": [
      {
       "title": "Gyroscopic Systems",
-      "page": 16
+      "page": 16,
+      "folio": "5-16"
      }
     ]
    },
@@ -490,7 +512,8 @@
     "sections": [
      {
       "title": "Gyroscopic Instruments",
-      "page": 19
+      "page": 19,
+      "folio": "5-19"
      }
     ]
    }
@@ -528,7 +551,8 @@
     "sections": [
      {
       "title": "Flight Support Systems",
-      "page": 22
+      "page": 22,
+      "folio": "5-22"
      }
     ]
    },
@@ -545,7 +569,8 @@
     "sections": [
      {
       "title": "Analog Pictorial Displays",
-      "page": 23
+      "page": 23,
+      "folio": "5-23"
      }
     ]
    },
@@ -562,7 +587,8 @@
     "sections": [
      {
       "title": "Primary Flight Display (PFD)",
-      "page": 27
+      "page": 27,
+      "folio": "5-27"
      }
     ]
    },
@@ -579,7 +605,8 @@
     "sections": [
      {
       "title": "Required Navigation Instrument System Inspection",
-      "page": 36
+      "page": 36,
+      "folio": "5-36"
      }
     ]
    }
@@ -606,8 +633,8 @@
    {
     "doc": "ifh",
     "chapter": "6",
-    "title": "Learning Methods",
-    "note": "Analog instrumentation",
+    "title": "Learning methods",
+    "note": "Section I \u2014 analog instrumentation",
     "startPage": 2,
     "endPage": 10,
     "folio": "6-2",
@@ -616,7 +643,8 @@
     "sections": [
      {
       "title": "Learning Methods",
-      "page": 2
+      "page": 2,
+      "folio": "6-2"
      }
     ]
    },
@@ -633,7 +661,26 @@
     "sections": [
      {
       "title": "Fundamental Skills",
-      "page": 10
+      "page": 10,
+      "folio": "6-10"
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "6",
+    "title": "Learning methods",
+    "note": "Section II \u2014 electronic flight display",
+    "startPage": 16,
+    "endPage": 24,
+    "folio": "6-16",
+    "folioEnd": "6-24",
+    "pages": 9,
+    "sections": [
+     {
+      "title": "Learning Methods",
+      "page": 16,
+      "folio": "6-16"
      }
     ]
    },
@@ -641,7 +688,7 @@
     "doc": "ifh",
     "chapter": "6",
     "title": "Scanning Techniques",
-    "note": "Electronic flight display",
+    "note": "",
     "startPage": 24,
     "endPage": 27,
     "folio": "6-24",
@@ -650,7 +697,8 @@
     "sections": [
      {
       "title": "Scanning Techniques",
-      "page": 24
+      "page": 24,
+      "folio": "6-24"
      }
     ]
    },
@@ -667,7 +715,8 @@
     "sections": [
      {
       "title": "Common Errors",
-      "page": 27
+      "page": 27,
+      "folio": "6-27"
      }
     ]
    }
@@ -679,7 +728,7 @@
    "Selected radial cross-check and how it differs on a PFD",
    "Fixation, omission and emphasis: recognising your own scan breakdown"
   ],
-  "pageCount": 21
+  "pageCount": 30
  },
  {
   "id": "basic-flight-maneuvers",
@@ -694,68 +743,46 @@
    {
     "doc": "ifh",
     "chapter": "7",
-    "title": "Straight-and-Level Flight",
-    "note": "",
+    "title": "Straight-and-level, climbs, descents, turns, takeoff",
+    "note": "Section I \u2014 analog panel. Read this or the glass version below, whichever matches your aircraft.",
     "startPage": 2,
-    "endPage": 14,
+    "endPage": 30,
     "folio": "7-2",
-    "folioEnd": "7-14",
-    "pages": 13,
+    "folioEnd": "7-30",
+    "pages": 29,
     "sections": [
      {
       "title": "Straight-and-Level Flight",
-      "page": 2
-     }
-    ]
-   },
-   {
-    "doc": "ifh",
-    "chapter": "7",
-    "title": "Straight Climbs and Descents",
-    "note": "",
-    "startPage": 14,
-    "endPage": 19,
-    "folio": "7-14",
-    "folioEnd": "7-19",
-    "pages": 6,
-    "sections": [
-     {
-      "title": "Straight Climbs and Descents",
-      "page": 14
-     }
-    ]
-   },
-   {
-    "doc": "ifh",
-    "chapter": "7",
-    "title": "Turns",
-    "note": "",
-    "startPage": 19,
-    "endPage": 26,
-    "folio": "7-19",
-    "folioEnd": "7-26",
-    "pages": 8,
-    "sections": [
-     {
-      "title": "Turns",
-      "page": 19
-     }
-    ]
-   },
-   {
-    "doc": "ifh",
-    "chapter": "7",
-    "title": "Instrument Takeoff",
-    "note": "",
-    "startPage": 29,
-    "endPage": 30,
-    "folio": "7-29",
-    "folioEnd": "7-30",
-    "pages": 2,
-    "sections": [
+      "page": 2,
+      "folio": "7-2"
+     },
      {
       "title": "Instrument Takeoff",
-      "page": 29
+      "page": 29,
+      "folio": "7-29"
+     }
+    ]
+   },
+   {
+    "doc": "ifh",
+    "chapter": "7",
+    "title": "The same maneuvers on an electronic flight display",
+    "note": "Section II \u2014 glass panel",
+    "startPage": 34,
+    "endPage": 61,
+    "folio": "7-34",
+    "folioEnd": "7-61",
+    "pages": 28,
+    "sections": [
+     {
+      "title": "Straight-and-Level Flight",
+      "page": 34,
+      "folio": "7-34"
+     },
+     {
+      "title": "Instrument Takeoff",
+      "page": 60,
+      "folio": "7-60"
      }
     ]
    }
@@ -768,7 +795,7 @@
    "The instrument takeoff and its common errors",
    "ACS tolerances: \u00b110 knots, \u00b1100 feet, \u00b110 degrees"
   ],
-  "pageCount": 29
+  "pageCount": 57
  },
  {
   "id": "unusual-attitudes",
@@ -793,7 +820,8 @@
     "sections": [
      {
       "title": "Approach to Stall",
-      "page": 26
+      "page": 26,
+      "folio": "7-26"
      }
     ]
    }
@@ -822,7 +850,7 @@
     "doc": "ifh",
     "chapter": "7",
     "title": "Basic Instrument Flight Patterns",
-    "note": "",
+    "note": "Section I \u2014 analog panel; the glass-panel version is at 7-61",
     "startPage": 30,
     "endPage": 33,
     "folio": "7-30",
@@ -831,7 +859,8 @@
     "sections": [
      {
       "title": "Basic Instrument Flight Patterns",
-      "page": 30
+      "page": 30,
+      "folio": "7-30"
      }
     ]
    }
@@ -867,7 +896,8 @@
     "sections": [
      {
       "title": "Very High Frequency Omnidirectional Range (VOR)",
-      "page": 8
+      "page": 8,
+      "folio": "9-8"
      }
     ]
    },
@@ -884,11 +914,13 @@
     "sections": [
      {
       "title": "Monitoring of Navigation Facilities",
-      "page": 29
+      "page": 29,
+      "folio": "2-29"
      },
      {
       "title": "RNAV Accuracy Check",
-      "page": 31
+      "page": 31,
+      "folio": "2-31"
      }
     ]
    }
@@ -925,7 +957,8 @@
     "sections": [
      {
       "title": "Basic Radio Principles",
-      "page": 2
+      "page": 2,
+      "folio": "9-2"
      }
     ]
    },
@@ -942,7 +975,8 @@
     "sections": [
      {
       "title": "Nondirectional Radio Beacon (NDB)",
-      "page": 3
+      "page": 3,
+      "folio": "9-3"
      }
     ]
    }
@@ -979,7 +1013,8 @@
     "sections": [
      {
       "title": "Distance Measuring Equipment (DME)",
-      "page": 17
+      "page": 17,
+      "folio": "9-17"
      }
     ]
    }
@@ -1017,7 +1052,8 @@
     "sections": [
      {
       "title": "Area Navigation (RNAV)",
-      "page": 22
+      "page": 22,
+      "folio": "9-22"
      }
     ]
    },
@@ -1034,7 +1070,8 @@
     "sections": [
      {
       "title": "Advanced Technologies",
-      "page": 24
+      "page": 24,
+      "folio": "9-24"
      }
     ]
    },
@@ -1051,7 +1088,8 @@
     "sections": [
      {
       "title": "Required Navigation Performance",
-      "page": 44
+      "page": 44,
+      "folio": "9-44"
      }
     ]
    }
@@ -1078,17 +1116,46 @@
    {
     "doc": "iph",
     "chapter": "6",
-    "title": "Introduction",
+    "title": "Standardization and path terminators",
     "note": "",
-    "startPage": 1,
-    "endPage": 3,
-    "folio": "6-1",
-    "folioEnd": "6-3",
-    "pages": 3,
+    "startPage": 3,
+    "endPage": 13,
+    "folio": "6-3",
+    "folioEnd": "6-13",
+    "pages": 11,
     "sections": [
      {
-      "title": "Introduction",
-      "page": 1
+      "title": "Airborne Navigation Database Standardization",
+      "page": 3,
+      "folio": "6-3"
+     },
+     {
+      "title": "Path and Terminator Concept",
+      "page": 5,
+      "folio": "6-5"
+     }
+    ]
+   },
+   {
+    "doc": "iph",
+    "chapter": "6",
+    "title": "Providers and operational limitations",
+    "note": "",
+    "startPage": 13,
+    "endPage": 18,
+    "folio": "6-13",
+    "folioEnd": "6-18",
+    "pages": 6,
+    "sections": [
+     {
+      "title": "Role of the Database Provider",
+      "page": 13,
+      "folio": "6-13"
+     },
+     {
+      "title": "Operational Limitations of Airborne Navigation Databases",
+      "page": 14,
+      "folio": "6-14"
      }
     ]
    }
@@ -1100,7 +1167,7 @@
    "Which parts of a procedure you may not edit",
    "Cross-checking the loaded procedure against the chart"
   ],
-  "pageCount": 3
+  "pageCount": 17
  },
  {
   "id": "ils-and-approach-systems",
@@ -1125,7 +1192,8 @@
     "sections": [
      {
       "title": "Instrument Approach Systems",
-      "page": 35
+      "page": 35,
+      "folio": "9-35"
      }
     ]
    },
@@ -1142,7 +1210,8 @@
     "sections": [
      {
       "title": "Required Navigation Performance",
-      "page": 44
+      "page": 44,
+      "folio": "9-44"
      }
     ]
    }
@@ -1179,7 +1248,8 @@
     "sections": [
      {
       "title": "Clearances",
-      "page": 3
+      "page": 3,
+      "folio": "10-3"
      }
     ]
    },
@@ -1220,15 +1290,16 @@
     "chapter": "1",
     "title": "Departure Procedures",
     "note": "Design criteria and obstacle clearance",
-    "startPage": 1,
-    "endPage": 2,
-    "folio": "1-1",
-    "folioEnd": "1-2",
-    "pages": 2,
+    "startPage": 16,
+    "endPage": 23,
+    "folio": "1-16",
+    "folioEnd": "1-23",
+    "pages": 8,
     "sections": [
      {
       "title": "Departure Procedures",
-      "page": 1
+      "page": 16,
+      "folio": "1-16"
      }
     ]
    },
@@ -1245,7 +1316,8 @@
     "sections": [
      {
       "title": "Categories of Departure Procedures",
-      "page": 23
+      "page": 23,
+      "folio": "1-23"
      }
     ]
    },
@@ -1262,7 +1334,8 @@
     "sections": [
      {
       "title": "Departure Procedures (DPs)",
-      "page": 5
+      "page": 5,
+      "folio": "10-5"
      }
     ]
    }
@@ -1275,7 +1348,7 @@
    "RNAV departures, transition routes, and SID altitude constraints",
    "Diverse vector areas, VCOA, and departures from non-towered airports"
   ],
-  "pageCount": 26
+  "pageCount": 32
  },
  {
   "id": "takeoff-minimums-and-alternates",
@@ -1300,7 +1373,8 @@
     "sections": [
      {
       "title": "Weather and the Departure Environment",
-      "page": 8
+      "page": 8,
+      "folio": "1-8"
      }
     ]
    },
@@ -1317,7 +1391,8 @@
     "sections": [
      {
       "title": "Automated Weather Systems",
-      "page": 12
+      "page": 12,
+      "folio": "1-12"
      }
     ]
    }
@@ -1354,7 +1429,8 @@
     "sections": [
      {
       "title": "Airway and Route System",
-      "page": 13
+      "page": 13,
+      "folio": "2-13"
      }
     ]
    },
@@ -1371,7 +1447,8 @@
     "sections": [
      {
       "title": "En Route Reporting Procedures",
-      "page": 46
+      "page": 46,
+      "folio": "2-46"
      }
     ]
    },
@@ -1388,7 +1465,8 @@
     "sections": [
      {
       "title": "En Route Procedures",
-      "page": 7
+      "page": 7,
+      "folio": "10-7"
      }
     ]
    }
@@ -1425,7 +1503,8 @@
     "sections": [
      {
       "title": "IFR En Route Altitudes",
-      "page": 35
+      "page": 35,
+      "folio": "2-35"
      }
     ]
    },
@@ -1442,7 +1521,8 @@
     "sections": [
      {
       "title": "Off-Route Obstruction Clearance Altitude",
-      "page": 27
+      "page": 27,
+      "folio": "2-27"
      }
     ]
    }
@@ -1480,7 +1560,8 @@
     "sections": [
      {
       "title": "Holding Procedures",
-      "page": 10
+      "page": 10,
+      "folio": "10-10"
      }
     ]
    },
@@ -1497,7 +1578,8 @@
     "sections": [
      {
       "title": "En Route Holding Procedures",
-      "page": 51
+      "page": 51,
+      "folio": "2-51"
      }
     ]
    },
@@ -1514,7 +1596,8 @@
     "sections": [
      {
       "title": "Course Reversal Elements in Plan View and Profile View",
-      "page": 20
+      "page": 20,
+      "folio": "1-20"
      }
     ]
    }
@@ -1556,7 +1639,8 @@
     "sections": [
      {
       "title": "Navigation in the Arrival Environment",
-      "page": 2
+      "page": 2,
+      "folio": "3-2"
      }
     ]
    },
@@ -1573,7 +1657,8 @@
     "sections": [
      {
       "title": "Standard Terminal Arrival Routes (STARs)",
-      "page": 10
+      "page": 10,
+      "folio": "3-10"
      }
     ]
    },
@@ -1590,7 +1675,8 @@
     "sections": [
      {
       "title": "Preparing for the Arrival",
-      "page": 16
+      "page": 16,
+      "folio": "3-16"
      }
     ]
    },
@@ -1607,7 +1693,8 @@
     "sections": [
      {
       "title": "Planning the Descent and Approach",
-      "page": 8
+      "page": 8,
+      "folio": "10-8"
      }
     ]
    }
@@ -1645,7 +1732,8 @@
     "sections": [
      {
       "title": "Approach Planning",
-      "page": 2
+      "page": 2,
+      "folio": "4-2"
      }
     ]
    },
@@ -1662,7 +1750,8 @@
     "sections": [
      {
       "title": "Aircraft Performance Considerations",
-      "page": 7
+      "page": 7,
+      "folio": "4-7"
      }
     ]
    },
@@ -1679,7 +1768,8 @@
     "sections": [
      {
       "title": "Instrument Approach Procedure (IAP) Briefing",
-      "page": 35
+      "page": 35,
+      "folio": "4-35"
      }
     ]
    }
@@ -1716,11 +1806,13 @@
     "sections": [
      {
       "title": "Descents",
-      "page": 37
+      "page": 37,
+      "folio": "4-37"
      },
      {
       "title": "Descent Rates and Glidepaths for Nonprecision Approaches",
-      "page": 37
+      "page": 37,
+      "folio": "4-37"
      }
     ]
    },
@@ -1737,7 +1829,8 @@
     "sections": [
      {
       "title": "Types of Approaches",
-      "page": 54
+      "page": 54,
+      "folio": "4-54"
      }
     ]
    },
@@ -1754,7 +1847,8 @@
     "sections": [
      {
       "title": "Instrument Approaches to Civil Airports",
-      "page": 13
+      "page": 13,
+      "folio": "10-13"
      }
     ]
    }
@@ -1793,7 +1887,8 @@
     "sections": [
      {
       "title": "Vertical Navigation",
-      "page": 23
+      "page": 23,
+      "folio": "4-23"
      }
     ]
    },
@@ -1810,7 +1905,8 @@
     "sections": [
      {
       "title": "Instrument Landing Systems (ILS)",
-      "page": 35
+      "page": 35,
+      "folio": "9-35"
      }
     ]
    },
@@ -1827,7 +1923,8 @@
     "sections": [
      {
       "title": "ILS Errors",
-      "page": 40
+      "page": 40,
+      "folio": "9-40"
      }
     ]
    }
@@ -1866,7 +1963,8 @@
     "sections": [
      {
       "title": "RNAV Approach Types",
-      "page": 60
+      "page": 60,
+      "folio": "4-60"
      }
     ]
    },
@@ -1883,7 +1981,8 @@
     "sections": [
      {
       "title": "RNAV Instrument Approach Charts",
-      "page": 30
+      "page": 30,
+      "folio": "1-30"
      }
     ]
    }
@@ -1921,7 +2020,8 @@
     "sections": [
      {
       "title": "Missed Approaches",
-      "page": 21
+      "page": 21,
+      "folio": "10-21"
      }
     ]
    },
@@ -1938,7 +2038,8 @@
     "sections": [
      {
       "title": "Missed Approach",
-      "page": 39
+      "page": 39,
+      "folio": "4-39"
      }
     ]
    }
@@ -1976,7 +2077,8 @@
     "sections": [
      {
       "title": "Circling Approaches",
-      "page": 20
+      "page": 20,
+      "folio": "10-20"
      }
     ]
    },
@@ -1993,7 +2095,8 @@
     "sections": [
      {
       "title": "Circling Approach Patterns",
-      "page": 32
+      "page": 32,
+      "folio": "7-32"
      }
     ]
    },
@@ -2010,7 +2113,8 @@
     "sections": [
      {
       "title": "Landing Minimums",
-      "page": 23
+      "page": 23,
+      "folio": "1-23"
      }
     ]
    }
@@ -2048,7 +2152,8 @@
     "sections": [
      {
       "title": "Landing",
-      "page": 22
+      "page": 22,
+      "folio": "10-22"
      }
     ]
    },
@@ -2065,7 +2170,8 @@
     "sections": [
      {
       "title": "Inoperative Components",
-      "page": 27
+      "page": 27,
+      "folio": "1-27"
      }
     ]
    },
@@ -2082,7 +2188,8 @@
     "sections": [
      {
       "title": "Approach Lighting Systems (ALS)",
-      "page": 38
+      "page": 38,
+      "folio": "9-38"
      }
     ]
    }
@@ -2119,7 +2226,8 @@
     "sections": [
      {
       "title": "Radar Approaches",
-      "page": 15
+      "page": 15,
+      "folio": "10-15"
      }
     ]
    },
@@ -2136,7 +2244,8 @@
     "sections": [
      {
       "title": "Radar Monitoring of Instrument Approaches",
-      "page": 18
+      "page": 18,
+      "folio": "10-18"
      }
     ]
    },
@@ -2153,7 +2262,8 @@
     "sections": [
      {
       "title": "Approaches to Parallel Runways",
-      "page": 20
+      "page": 20,
+      "folio": "10-20"
      }
     ]
    }
@@ -2191,7 +2301,8 @@
     "sections": [
      {
       "title": "Sources of Flight Planning Information",
-      "page": 2
+      "page": 2,
+      "folio": "10-2"
      }
     ]
    },
@@ -2208,7 +2319,8 @@
     "sections": [
      {
       "title": "Instrument Weather Flying",
-      "page": 22
+      "page": 22,
+      "folio": "10-22"
      }
     ]
    }
@@ -2246,7 +2358,8 @@
     "sections": [
      {
       "title": "Conducting an IFR Flight",
-      "page": 26
+      "page": 26,
+      "folio": "10-26"
      }
     ]
    }
@@ -2283,7 +2396,8 @@
     "sections": [
      {
       "title": "Communication/Navigation System Malfunction",
-      "page": 8
+      "page": 8,
+      "folio": "11-8"
      }
     ]
    },
@@ -2300,7 +2414,8 @@
     "sections": [
      {
       "title": "Communication Failure",
-      "page": 47
+      "page": 47,
+      "folio": "2-47"
      }
     ]
    }
@@ -2337,11 +2452,13 @@
     "sections": [
      {
       "title": "Analog Instrument Failure",
-      "page": 7
+      "page": 7,
+      "folio": "11-7"
      },
      {
       "title": "Pitot/Static System Failure",
-      "page": 8
+      "page": 8,
+      "folio": "11-8"
      }
     ]
    },
@@ -2358,7 +2475,8 @@
     "sections": [
      {
       "title": "Electronic Flight Display Malfunction",
-      "page": 4
+      "page": 4,
+      "folio": "11-4"
      }
     ]
    }
@@ -2396,7 +2514,8 @@
     "sections": [
      {
       "title": "Emergency Procedures",
-      "page": 1
+      "page": 1,
+      "folio": "A-1"
      }
     ]
    },
@@ -2413,7 +2532,8 @@
     "sections": [
      {
       "title": "Aircraft System Malfunctions",
-      "page": 3
+      "page": 3,
+      "folio": "11-3"
      }
     ]
    }
@@ -2451,7 +2571,8 @@
     "sections": [
      {
       "title": "Systems Preflight Procedures",
-      "page": 36
+      "page": 36,
+      "folio": "5-36"
      }
     ]
    },
@@ -2468,7 +2589,8 @@
     "sections": [
      {
       "title": "Preflight",
-      "page": 26
+      "page": 26,
+      "folio": "10-26"
      }
     ]
    }

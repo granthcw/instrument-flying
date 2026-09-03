@@ -1,80 +1,99 @@
-// Plain reader: one chapter, opened at a page, for browsing outside a session.
+// Full-screen reader: one chapter, opened at a page.
+//
+// This is the phone's reading surface as well as the Browse reader, so it
+// carries the zoom control -- at fit-width a handbook page renders its 9pt
+// text around 5px tall on a phone, which no amount of layout fixes.
 
 import { el } from './ui.js';
 import * as store from '../store.js';
-import { Reader } from '../reader.js';
+import { Reader, ZOOM_STEPS } from '../reader.js';
 
 export function render(ctx) {
   const { doc, chapter, page } = ctx.params;
-  if (doc === 'acs') return acsReader(ctx, Number(page) || 1);
-
   const meta = ctx.data.docs[doc];
-  const part = meta?.parts.find((p) => p.key === chapter);
-  if (!part) return el('p', { class: 'empty' }, ['No such chapter.']);
+  const isACS = doc === 'acs';
+  const part = isACS ? null : meta?.parts.find((p) => p.key === chapter);
+  if (!isACS && !part) return el('p', { class: 'empty' }, ['No such chapter.']);
 
   const readerEl = el('div', { class: 'reader' });
   const reader = new Reader(readerEl);
   ctx.onLeave(() => reader.destroy());
 
   const indicator = el('span', { class: 'page-indicator' });
-  const sections = ctx.data.outline[doc].filter((s) => s.chapter === chapter);
-
   reader.onPageChange = (n) => {
-    indicator.textContent = `${chapter}-${n + part.firstFolio - 1}`;
+    indicator.textContent = part ? `${chapter}-${n + part.firstFolio - 1}` : `p${n}`;
   };
+
   reader.show({
-    doc, chapter, file: part.file, focus: Number(page) || store.recallPlace(doc, chapter),
+    doc, chapter, file: isACS ? ctx.data.acs.file : part.file,
+    focus: Number(page) || (isACS ? 1 : store.recallPlace(doc, chapter)),
   });
 
-  return el('div', { class: 'read-layout' }, [
-    el('nav', { class: 'agenda' }, [
-      el('div', { class: 'agenda-head' }, [
-        el('h2', {}, [part.title]),
-        el('span', { class: 'muted' }, [`${meta.code} · ${part.pages} pages`]),
-      ]),
-      el('ul', { class: 'toc scrollable' }, sections.map((s) => el('li', { class: `depth-${s.depth}` }, [
-        el('button', { onclick: () => reader.goTo(s.page) }, [s.title]),
-        el('span', { class: 'folio' }, [s.folio]),
-      ]))),
-      el('div', { class: 'agenda-foot' }, [
-        el('a', { class: 'btn small', href: '#/browse' }, ['Back to browse']),
-      ]),
-    ]),
-    el('main', { class: 'reader-pane' }, [
-      el('div', { class: 'reader-head' }, [
-        el('div', {}, [
-          el('div', { class: 'crumb' }, [meta.title]),
-          el('h1', {}, [part.title]),
-        ]),
-        el('div', { class: 'reader-nav' }, [
-          el('button', { class: 'btn tiny', onclick: () => reader.step(-1) }, ['←']),
-          indicator,
-          el('button', { class: 'btn tiny', onclick: () => reader.step(1) }, ['→']),
-        ]),
-      ]),
-      readerEl,
-    ]),
-  ]);
-}
+  // Coming from a phone session, going back returns to that topic and reading.
+  const back = ctx.query.get('back') === 'session'
+    ? `#/session?topics=${ctx.query.get('topics') || ''}`
+      + `&t=${ctx.query.get('t') || 0}&r=${ctx.query.get('r') || 0}`
+    : (isACS ? '#/acs' : '#/browse');
 
-function acsReader(ctx, page) {
-  const readerEl = el('div', { class: 'reader' });
-  const reader = new Reader(readerEl);
-  ctx.onLeave(() => reader.destroy());
-  reader.show({ doc: 'acs', chapter: 'acs', file: ctx.data.acs.file, focus: page });
-  return el('div', { class: 'read-layout single' }, [
-    el('main', { class: 'reader-pane' }, [
-      el('div', { class: 'reader-head' }, [
-        el('div', {}, [
-          el('div', { class: 'crumb' }, [el('a', { href: '#/acs' }, ['ACS'])]),
-          el('h1', {}, [ctx.data.acs.title]),
-        ]),
-        el('div', { class: 'reader-nav' }, [
-          el('button', { class: 'btn tiny', onclick: () => reader.step(-1) }, ['←']),
-          el('button', { class: 'btn tiny', onclick: () => reader.step(1) }, ['→']),
-        ]),
-      ]),
-      readerEl,
+  const zoomLabel = el('span', { class: 'zoom-label' }, [`${Math.round(reader.zoom * 100)}%`]);
+  reader.onZoomChange = (z) => { zoomLabel.textContent = `${Math.round(z * 100)}%`; };
+
+  const chrome = el('div', { class: 'reader-head compact' }, [
+    el('a', { class: 'btn tiny', href: back }, ['←']),
+    el('div', { class: 'reader-head-text' }, [
+      el('h1', {}, [isACS ? ctx.data.acs.title : part.title]),
+      el('span', { class: 'muted' }, [isACS ? ctx.data.acs.code : meta.code]),
+    ]),
+    el('div', { class: 'reader-nav' }, [
+      el('button', {
+        class: 'btn tiny', title: 'Zoom out',
+        onclick: () => reader.stepZoom(-1),
+      }, ['−']),
+      zoomLabel,
+      el('button', {
+        class: 'btn tiny', title: 'Zoom in',
+        onclick: () => reader.stepZoom(1),
+      }, ['+']),
+      indicator,
     ]),
   ]);
+
+  const sections = isACS ? [] : ctx.data.outline[doc].filter((s) => s.chapter === chapter);
+  const contents = sections.length ? el('nav', { class: 'agenda' }, [
+    el('div', { class: 'agenda-head' }, [
+      el('h2', {}, [part.title]),
+      el('span', { class: 'muted' }, [`${meta.code} · ${part.pages} pages`]),
+    ]),
+    el('ul', { class: 'toc scrollable' }, sections.map((s) => el('li', { class: `depth-${s.depth}` }, [
+      el('button', {
+        onclick: () => {
+          reader.goTo(s.page);
+          document.querySelector('.read-layout')?.classList.remove('contents-open');
+        },
+      }, [s.title]),
+      el('span', { class: 'folio' }, [s.folio]),
+    ]))),
+    el('div', { class: 'agenda-foot' }, [
+      el('a', { class: 'btn small', href: back }, ['Back']),
+    ]),
+  ]) : null;
+
+  const layout = el('div', {
+    class: `read-layout${contents ? '' : ' single'}`,
+  }, [
+    contents,
+    el('main', { class: 'reader-pane' }, [chrome, readerEl]),
+    contents ? el('button', {
+      class: 'contents-toggle',
+      onclick: () => layoutToggle(),
+    }, ['Contents']) : null,
+  ]);
+
+  function layoutToggle() {
+    layout.classList.toggle('contents-open');
+  }
+
+  document.body.classList.add('wide');
+  ctx.onLeave(() => document.body.classList.remove('wide'));
+  return layout;
 }

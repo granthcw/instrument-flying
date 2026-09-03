@@ -508,19 +508,30 @@ def verify(window=6):
 # --------------------------------------------------------------------------
 # topics: resolve authored section references into concrete page ranges
 # --------------------------------------------------------------------------
-def find_section(sections, chapter, title):
-    """Locate an authored section reference within a chapter's outline."""
+def find_section(sections, chapter, title, folio=None):
+    """Locate an authored section reference within a chapter's outline.
+
+    Both handbooks repeat headings within a chapter -- IPH chapter 1 has a
+    "Departure Procedures" cover page at 1-1 and the section itself at 1-16,
+    and IFH chapter 7 runs the same headings twice, once for analog panels
+    and once for electronic flight displays. Picking the first match silently
+    lands on the wrong one, so an ambiguous title is an error and the author
+    pins it with an explicit folio.
+    """
     inch = [s for s in sections if s["chapter"] == str(chapter)]
     want = title.strip().lower()
-    exact = [s for s in inch if s["title"].lower() == want]
-    if exact:
-        return exact[0]
-    partial = [s for s in inch if want in s["title"].lower()]
-    if len(partial) == 1:
-        return partial[0]
-    if len(partial) > 1:
-        raise KeyError(f"ambiguous section {title!r} in chapter {chapter}: "
-                       + ", ".join(repr(s["title"]) for s in partial[:4]))
+    matches = [s for s in inch if s["title"].lower() == want] \
+        or [s for s in inch if want in s["title"].lower()]
+    if folio:
+        matches = [s for s in matches if s["folio"] == folio]
+        if not matches:
+            raise KeyError(f"no section {title!r} at folio {folio} in chapter {chapter}")
+    if len(matches) == 1:
+        return matches[0]
+    if len(matches) > 1:
+        where = ", ".join(s["folio"] for s in matches)
+        raise KeyError(f"section {title!r} appears {len(matches)} times in chapter "
+                       f"{chapter} ({where}); pin one with an explicit folio")
     raise KeyError(f"no section {title!r} in chapter {chapter}")
 
 
@@ -555,17 +566,25 @@ def topics():
         readings = []
         for ref in topic["readings"]:
             doc, chapter = ref["doc"], str(ref["chapter"])
-            titles = ref.get("sections") or ([ref["section"]] if "section" in ref else [])
+            # a section reference is a title, or {"title", "folio"} to pin
+            # which occurrence when a chapter repeats the heading
+            raw = ref.get("sections") or ([ref["section"]] if "section" in ref else [])
+            titles = [r if isinstance(r, dict) else {"title": r} for r in raw]
+            if "folio" in ref and len(titles) == 1:
+                titles[0] = {**titles[0], "folio": ref["folio"]}
             try:
                 resolved = []
                 if titles:
                     spans = []
                     for t in titles:
-                        sec = find_section(outline_data[doc], chapter, t)
-                        resolved.append({"title": sec["title"], "page": sec["page"]})
+                        sec = find_section(outline_data[doc], chapter,
+                                           t["title"], t.get("folio"))
+                        resolved.append({"title": sec["title"], "page": sec["page"],
+                                         "folio": sec["folio"]})
                         spans.append(section_range(outline_data[doc], sec, npages[doc][chapter]))
                     start, end = min(s for s, _ in spans), max(e for _, e in spans)
-                    label = titles[0] if len(titles) == 1 else f"{titles[0]} \u2013 {titles[-1]}"
+                    label = (titles[0]["title"] if len(titles) == 1
+                             else f"{titles[0]['title']} \u2013 {titles[-1]['title']}")
                 else:
                     start, end = ref["pages"]
                     label = ref.get("label", "")

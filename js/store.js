@@ -10,7 +10,7 @@ const EMPTY = {
   lastPlace: {},   // "ifh:10" -> page within that chapter PDF
   topics: {},      // topic id -> { lastReviewed, reviewCount, checkpoints, notes }
   sessions: [],    // { date, topicIds, completed }
-  settings: { staleDays: 30, freshDays: 14 },
+  settings: { staleDays: 30, freshDays: 14, zoom: 1 },
 };
 
 let state = load();
@@ -90,6 +90,17 @@ export function clearTopic(id) {
 
 export function setNotes(id, notes) {
   state.topics[id] = { ...topicState(id), notes };
+  save();
+}
+
+// ---- reader zoom ------------------------------------------------------
+
+export function getZoom() {
+  return state.settings.zoom || 1;
+}
+
+export function setZoom(zoom) {
+  state.settings = { ...state.settings, zoom };
   save();
 }
 
