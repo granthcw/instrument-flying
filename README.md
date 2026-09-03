@@ -39,6 +39,10 @@ screen is for.
   reading opens the full-screen reader, and going back returns you to the same
   topic and reading.
 
+Opening a reading goes full-screen: the app's top bar hides, and the compact
+header slides away as you read down and returns when you scroll up, so the page
+gets the whole screen. The chapter contents live behind the Contents button.
+
 The reader has a zoom control (100–300%), because at fit-width a two-column
 handbook page puts 9pt text at about 5px on a phone. Zooming re-renders the
 page rather than scaling the canvas up, so it stays sharp, and pans sideways.
@@ -77,6 +81,12 @@ bash tools/vendor_pdfjs.sh             # only to change the pinned PDF.js
 Then serve the folder over HTTP (`python3 -m http.server`) — opening
 `index.html` from the filesystem will not work, because the app fetches its JSON
 data.
+
+`tools/build.py stamp` runs last and rewrites the stylesheet and entry-script
+URLs in `index.html` with their content hashes. GitHub Pages serves assets with
+`Cache-Control: max-age=600`, so without this a browser can hold a stale
+stylesheet against fresh markup and show a layout that was already fixed. Run it
+after editing `css/app.css` or `js/app.js`.
 
 ### What the build does
 

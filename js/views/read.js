@@ -93,7 +93,28 @@ export function render(ctx) {
     layout.classList.toggle('contents-open');
   }
 
-  document.body.classList.add('wide');
-  ctx.onLeave(() => document.body.classList.remove('wide'));
+  // The full-screen reader is exactly that: the app's own top bar is hidden
+  // and the compact head carries the back button, so the page gets the screen.
+  document.body.classList.add('wide', 'reading');
+  ctx.onLeave(() => document.body.classList.remove('wide', 'reading'));
+
+  // The head slides away as you read down and comes back the moment you
+  // scroll up or reach the top, the way Safari's own chrome behaves.
+  let lastY = 0;
+  let userDriven = false;
+  // Opening at a page scrolls the pane, and each lazily rendered canvas
+  // shifts it again. Neither is the reader scrolling away, so the head only
+  // reacts once the scrolling is actually coming from the person reading.
+  for (const ev of ['wheel', 'touchmove', 'keydown']) {
+    readerEl.addEventListener(ev, () => { userDriven = true; }, { passive: true });
+  }
+  readerEl.addEventListener('scroll', () => {
+    const y = readerEl.scrollTop;
+    if (!userDriven) { lastY = y; return; }
+    if (y < 40 || y < lastY - 6) layout.classList.remove('head-hidden');
+    else if (y > lastY + 6) layout.classList.add('head-hidden');
+    lastY = y;
+  }, { passive: true });
+
   return layout;
 }

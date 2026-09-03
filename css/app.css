@@ -89,7 +89,14 @@ code { font-family: var(--mono); font-size: .87em; }
    itself never scrolls the reader out from under the header. */
 body.wide { height: 100dvh; overflow: hidden; display: flex; flex-direction: column; }
 body.wide .topbar { flex: none; position: static; }
-body.wide .outlet { max-width: none; padding: 0; flex: 1; min-height: 0; overflow: hidden; }
+/* the full-screen reader hides the app bar entirely */
+body.reading .topbar { display: none; }
+/* margin:0 auto from .outlet would make this flex item shrink-to-fit and
+   centre itself instead of filling the width, costing the page real estate */
+body.wide .outlet {
+  max-width: none; padding: 0; margin: 0; width: 100%;
+  flex: 1; min-height: 0; overflow: hidden;
+}
 
 .stack { display: flex; flex-direction: column; gap: 1.25rem; }
 .stack.tight { gap: .6rem; }
@@ -283,8 +290,19 @@ body.wide .outlet { max-width: none; padding: 0; flex: 1; min-height: 0; overflo
   padding: .8rem 1.1rem; border-bottom: 1px solid var(--line); background: var(--surface);
   flex: none; min-width: 0;
 }
-.reader-head.compact { align-items: center; padding: .55rem .8rem; gap: .6rem; }
-.reader-head.compact h1 { font-size: .95rem; font-weight: 600; margin: 0; }
+/* The compact head overlays the page rather than sitting above it, so the
+   reader is always full height and the head can slide out of the way. */
+.read-layout .reader-head.compact {
+  position: absolute; top: 0; left: 0; right: 0; z-index: 4;
+  align-items: center; padding: .45rem .7rem; gap: .5rem;
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  backdrop-filter: saturate(1.4) blur(10px);
+  transition: transform .2s ease;
+}
+.read-layout.head-hidden .reader-head.compact { transform: translateY(-100%); }
+.read-layout .reader { padding-top: 3.1rem; }
+.reader-head.compact h1 { font-size: .92rem; font-weight: 600; margin: 0; }
+.reader-head.compact .reader-head-text { flex: 1; }
 .reader-head-text { min-width: 0; }
 .reader-head-text h1, .reader-head .reading-label {
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
@@ -429,6 +447,9 @@ body.wide .outlet { max-width: none; padding: 0; flex: 1; min-height: 0; overflo
   .page-head { flex-direction: column; align-items: stretch; }
   .search { max-width: none; }
   .read-layout .agenda { width: min(88vw, 320px); }
+  /* on a phone the document code is noise next to the chapter name */
+  .reader-head.compact .reader-head-text span { display: none; }
+  .reader-head.compact h1 { font-size: .88rem; }
   .sticky-bar { margin: 0; padding-inline: 1rem; }
   .task-head { flex-wrap: wrap; }
   .elements ul { padding-left: .9rem; }

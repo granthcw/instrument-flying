@@ -629,6 +629,29 @@ def topics():
 
 
 # --------------------------------------------------------------------------
+# stamp: cache-bust the assets GitHub Pages serves with a 10 minute max-age
+# --------------------------------------------------------------------------
+def stamp():
+    """Version the stylesheet and entry script by their own content hash.
+
+    Pages serves assets with `Cache-Control: max-age=600`, so a browser can
+    hold a stale stylesheet against fresh markup and show a layout that was
+    already fixed. Hashing the URL makes a changed file a different URL.
+    """
+    import hashlib
+
+    index = os.path.join(ROOT, "index.html")
+    html = open(index).read()
+    for asset, pattern in (("css/app.css", r'href="css/app\.css(?:\?v=[0-9a-f]+)?"'),
+                           ("js/app.js", r'src="js/app\.js(?:\?v=[0-9a-f]+)?"')):
+        digest = hashlib.sha256(open(os.path.join(ROOT, asset), "rb").read()).hexdigest()[:8]
+        attr = "href" if asset.endswith(".css") else "src"
+        html = re.sub(pattern, f'{attr}="{asset}?v={digest}"', html)
+    open(index, "w").write(html)
+    log("  stamped index.html with content hashes")
+
+
+# --------------------------------------------------------------------------
 # text dump (not shipped; used for authoring and validation)
 # --------------------------------------------------------------------------
 def text():
@@ -647,8 +670,8 @@ def text():
 def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else "all"
     steps = {"fetch": fetch, "split": split, "outline": outline, "acs": acs,
-             "text": text, "verify": verify, "topics": topics}
-    order = (["fetch", "split", "outline", "acs", "text", "verify", "topics"]
+             "text": text, "verify": verify, "topics": topics, "stamp": stamp}
+    order = (["fetch", "split", "outline", "acs", "text", "verify", "topics", "stamp"]
              if cmd == "all" else [cmd])
     for name in order:
         log(f"== {name}")

@@ -191,12 +191,18 @@ export class Reader {
     entry.rendered = false;
   }
 
-  /** Free canvases far from the viewport so memory stays bounded. */
+  /** Keep a window of pages rendered around the current one, and free the rest.
+
+   *  This has to render as well as release: an observer only fires when an
+   *  element crosses a threshold, so a page released while still on screen
+   *  would never be asked to draw itself again and would sit there blank.
+   */
   _reap() {
     const here = this.current;
     if (here == null) return;
     this.pages.forEach((entry, n) => {
       if (Math.abs(n - here) > KEEP_RADIUS) this._release(entry);
+      else if (!entry.rendered) this._render(n, this.token);
     });
   }
 
