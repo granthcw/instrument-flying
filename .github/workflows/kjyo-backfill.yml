@@ -1,0 +1,56 @@
+# Seasonal backfill, run manually and chunked by day.
+#
+# Cost note measured on real data: GLM is ~4.25 min per site-day (4,320 granules
+# of 20 s each). A full May-September season is therefore ~22 h of GLM alone,
+# which is why this is a manual matrix job rather than part of the daily run.
+name: KJYO backfill
+
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "First UTC date (YYYY-MM-DD)"
+        required: true
+      end:
+        description: "Last UTC date (YYYY-MM-DD)"
+        required: true
+      jobs:
+        description: "Comma-separated: metar,glm,mrms,mos,spc"
+        default: "metar,mos,spc"
+
+defaults:
+  run:
+    working-directory: kjyo-backtest
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      PYTHONPATH: src
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: kjyo-backtest/requirements.txt
+      - run: pip install -r requirements.txt
+
+      - name: Backfill range
+        run: |
+          set -u
+          IFS=',' read -ra JOBS <<< "${{ inputs.jobs }}"
+          d="${{ inputs.start }}"
+          last=$(date -u -d "${{ inputs.end }} +1 day" +%Y-%m-%d)
+          while [ "$d" != "$last" ]; do
+            for j in "${JOBS[@]}"; do
+              echo "::group::$j $d"
+              # Idempotent upserts: a failed date is safe to re-run.
+              python -m kjyo_backtest.cli "ingest-${j}" --date "$d" --site KJYO \
+                || echo "::warning::$j failed for $d"
+              echo "::endgroup::"
+            done
+            d=$(date -u -d "$d +1 day" +%Y-%m-%d)
+          done

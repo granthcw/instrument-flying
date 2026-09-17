@@ -1,0 +1,48 @@
+name: KJYO tests
+
+on:
+  push:
+    paths: ["kjyo-backtest/**", ".github/workflows/kjyo-*.yml"]
+  pull_request:
+    paths: ["kjyo-backtest/**", ".github/workflows/kjyo-*.yml"]
+  workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: kjyo-backtest
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: kjyo-backtest/requirements.txt
+      - run: pip install -r requirements.txt
+
+      - name: Unit tests
+        run: PYTHONPATH=src python -m pytest -q
+
+      - name: Schema applies cleanly and is idempotent
+        env:
+          PGPASSWORD: postgres
+        run: |
+          psql -h localhost -U postgres -c 'create database kjyo_ci'
+          for f in db/migrations/*.sql; do
+            psql -h localhost -U postgres -d kjyo_ci -v ON_ERROR_STOP=1 -q -f "$f"
+            psql -h localhost -U postgres -d kjyo_ci -v ON_ERROR_STOP=1 -q -f "$f"
+          done
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+        options: >-
+          --health-cmd pg_isready --health-interval 10s
+          --health-timeout 5s --health-retries 5
+        ports: ["5432:5432"]

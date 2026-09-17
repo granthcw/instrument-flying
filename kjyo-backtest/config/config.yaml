@@ -1,0 +1,107 @@
+# KJYO forecast backtest -- v1 configuration.
+# Everything the scoring definitions call "configurable" lives here so that
+# changing a threshold never means editing code.
+
+sites:
+  - id: KJYO
+    name: Leesburg Executive
+    iem_id: JYO            # IEM ASOS uses the 3-letter id
+    lat: 39.0780
+    lon: -77.5575
+    elev_ft: 389
+    tz: America/New_York
+    role: focal
+    # KJYO is an AWOS. It does report TS/VCTS, but rarely -- see
+    # docs/thunder-reporting.md. GLM is the thunder truth; METAR is a cross-check.
+    thunder_truth: false
+  - id: KIAD
+    name: Washington Dulles Intl
+    iem_id: IAD
+    lat: 38.9445
+    lon: -77.4558
+    elev_ft: 313
+    tz: America/New_York
+    role: cross_check
+    thunder_truth: true
+  # Schema-ready, not collected in v1.
+  - {id: KHEF, name: Manassas Rgnl,       iem_id: HEF, lat: 38.7214, lon: -77.5150, elev_ft: 192, tz: America/New_York, role: future, thunder_truth: true}
+  - {id: KFDK, name: Frederick Muni,      iem_id: FDK, lat: 39.4176, lon: -77.3745, elev_ft: 306, tz: America/New_York, role: future, thunder_truth: true}
+  - {id: KMRB, name: Eastern WV Rgnl,     iem_id: MRB, lat: 39.4018, lon: -77.9847, elev_ft: 565, tz: America/New_York, role: future, thunder_truth: true}
+
+periods:
+  # Local-clock dayparts. Adjust if a forecast source splits differently;
+  # the observed side is re-derived from UTC at query time either way.
+  day_start_local: "07:00"
+  night_start_local: "19:00"
+
+collection:
+  # Every 3 h at :15 past, starting 00:15 UTC.
+  schedule_cron: "15 0,3,6,9,12,15,18,21 * * *"
+  max_tool_calls_per_pull: 3
+  request_timeout_s: 45
+
+observed:
+  lightning:
+    # Primary radius for the thunder label; the others are sensitivity checks.
+    primary_radius_nm: 10.0
+    radii_nm: [5.0, 10.0, 20.0]
+    min_flashes_for_thunder: 1
+  precip:
+    # MRMS 1-hour QPE threshold for "precip occurred" in an hour.
+    qpf_threshold_in: 0.01
+    # PrecipFlag sampling cadence (files exist every 2 min; 10 is enough).
+    flag_sample_minutes: 10
+    # Radius around the site for the dominant/max-severity PrecipFlag.
+    flag_radius_km: 5.0
+  flight_category:
+    # FAA definitions. Worst of ceiling and visibility wins.
+    vfr:  {ceiling_ft_gt: 3000, vis_sm_gt: 5}
+    mvfr: {ceiling_ft_min: 1000, ceiling_ft_max: 3000, vis_sm_min: 3, vis_sm_max: 5}
+    ifr:  {ceiling_ft_min: 500,  ceiling_ft_max: 1000, vis_sm_min: 1, vis_sm_max: 3}
+    lifr: {ceiling_ft_lt: 500, vis_sm_lt: 1}
+
+backfill:
+  # DC's convective season. 2026 runs to the present day.
+  seasons:
+    - {year: 2024, start: "05-01", end: "09-30"}
+    - {year: 2025, start: "05-01", end: "09-30"}
+    - {year: 2026, start: "05-01", end: "09-30"}
+
+sources:
+  glm:
+    goes19_start: "2025-04-04"   # GOES-19 became GOES-East
+  mrms:
+    bucket: noaa-mrms-pds
+    precip_flag_product: "CONUS/PrecipFlag_00.00"
+    qpe_product: "CONUS/MultiSensor_QPE_01H_Pass2_00.00"
+    qpe_fallback_product: "CONUS/RadarOnly_QPE_01H_00.00"
+    archive_start: "2020-10-14"  # verified earliest date in the bucket
+  mos:
+    # IEM archives only these cycles since Feb 2020.
+    archived_cycles_utc: [1, 7, 13, 19]
+    models: [NBS, NBE]
+  spc:
+    # Day-1 issuances used for point-in-polygon at the site.
+    day1_cycles: ["0100", "1200", "1300", "1630", "2000"]
+
+# Forecast source under test. See docs/access-notes.md for why this is twc_api
+# and not ff_connector in v1.
+forecast_source: twc_api
+
+twc:
+  base_url: "https://api.weather.com"
+  daily_endpoint: "/v3/wx/forecast/daily/15day"
+  hourly_endpoint: "/v3/wx/forecast/hourly/15day"
+  units: e
+  language: en-US
+
+foreflight:
+  # Disabled: the AI Connector EULA forbids systematic/automated collection and
+  # authorizes ChatGPT only. Kept here so the path can be switched on if terms
+  # change. Read-only forecast tools only, allowlisted by name.
+  enabled: false
+  tool_allowlist: []
+
+alerts:
+  channel: email          # email | sms | push  -- pending Chris's decision
+  heartbeat_cron: "30 12 * * *"

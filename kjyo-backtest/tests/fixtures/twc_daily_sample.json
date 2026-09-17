@@ -1,0 +1,21 @@
+{
+  "_comment": "Hand-built fixture in TWC v3 daily shape. Values are invented; the SHAPE is what is under test, including the null daypart-0 slot that TWC returns after ~3pm local.",
+  "validTimeUtc": [1753588800, 1753675200, 1753761600],
+  "temperatureMax": [91, 88, 84],
+  "temperatureMin": [72, 70, 66],
+  "daypart": [
+    {
+      "dayOrNight":      [null, "N",  "D",  "N",  "D",  "N"],
+      "daypartName":     [null, "Tonight", "Tomorrow", "Tomorrow night", "Tuesday", "Tuesday night"],
+      "iconCode":        [null, 47,   38,   29,   30,   31],
+      "wxPhraseLong":    [null, "Scattered Thunderstorms", "Scattered Thunderstorms", "Partly Cloudy", "Partly Cloudy", "Clear"],
+      "precipChance":    [null, 60,   55,   20,   15,   5],
+      "precipType":      [null, "rain", "rain", "rain", "rain", "rain"],
+      "qpf":             [null, 0.31, 0.24, 0.02, 0.0,  0.0],
+      "thunderCategory": [null, "Thunder expected", "Thunder possible", "No thunder", "No thunder", "No thunder"],
+      "thunderIndex":    [null, 2,    1,    0,    0,    0],
+      "cloudCover":      [null, 72,   65,   40,   35,   10],
+      "temperature":     [null, 72,   88,   70,   84,   66]
+    }
+  ]
+}

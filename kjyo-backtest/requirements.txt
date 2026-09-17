@@ -1,0 +1,9 @@
+# Runtime
+PyYAML>=6.0
+psycopg[binary]>=3.1
+netCDF4>=1.6          # GOES GLM L2 LCFA granules
+numpy>=1.24
+eccodes>=2.30         # MRMS GRIB2, element-level reads
+
+# Dev
+pytest>=7.4
