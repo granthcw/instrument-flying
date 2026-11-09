@@ -36,8 +36,6 @@ const CARD_BY_ID=new Map(CARDS.map(c=>[c.id,c]));
 const KEY='ifr_flashcard_study_state_v1'; // Stable across app versions and deployments on this origin
 const LEGACY_KEYS=['ifr-drill-v3-counts-','ifr-drill-chat-v1-'];
 const SESSION_LEGACY_PREFIX='ifr-drill-chat-session-v2-';
-const FIRST_59=CARDS.slice(0,59).map(c=>c.id); // 59 saved ChatGPT deck reviews, 2026-11-09
-const TODAY='2026-11-09';
 const dateKey=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`};
 let storageOK=true;
 function readKey(k){try{const raw=localStorage.getItem(k);return raw?JSON.parse(raw):null}catch(e){storageOK=false;return null}}
@@ -52,7 +50,6 @@ if(!Object.prototype.hasOwnProperty.call(existing,'counts')){
   for(const prefix of LEGACY_KEYS){const old=readKey(prefix+dateKey());if(old){counters=mergeCounts(counters,old);importSource='earlier flashcard app';imported=true}}
   const oldArchive=readKey('ifr-drill-v3-archive');if(oldArchive&&oldArchive[dateKey()]){counters=mergeCounts(counters,oldArchive[dateKey()]);importSource='earlier flashcard app';imported=true}
   // If no original app counts are available, recover the confirmed 59 study reviews.
-  if(!Object.prototype.hasOwnProperty.call(existing,'counts')){FIRST_59.forEach(id=>counters[id]=1);importSource='59 saved flashcard reviews';imported=true}
 }
 let goal=existing.goal===5?5:3;
 let mode=['sequential','within','random'].includes(existing.mode)?existing.mode:'sequential';
@@ -167,7 +164,7 @@ $('card').addEventListener('touchstart',e=>{x0=e.touches[0].clientX;y0=e.touches
 $('card').addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0,dy=e.changedTouches[0].clientY-y0;x0=null;if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.3){suppressClick=true;dx<0?next():prev();setTimeout(()=>suppressClick=false,300)}},{passive:true});
 const cardClick=flip;
 $('card').addEventListener('click',e=>{if(suppressClick){e.stopImmediatePropagation()};},true);
-$('recovery-note').textContent=imported?`Recovered progress from ${importSource}. The first 59 confirmed reviews are preserved as one repetition each when the original app counts are unavailable.`:'Autosave is enabled for this website. Counts and exact position restore when you return in this browser.';
+$('recovery-note').textContent=imported?`Recovered available counts from ${importSource}.`:'No previous app counts were accessible on this website. Future reviews autosave with the exact position in this browser.';
 $('storage-status').textContent='Every card change saves immediately on this website. Counts remain in this device’s browser storage. This does not sync between devices or survive clearing website data.';
 if(idle){render();save()}else{recover()}
 </script></body></html>
