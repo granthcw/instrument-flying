@@ -68,6 +68,9 @@ let selected=Number.isInteger(existing.selected)&&existing.selected>=-1&&existin
 let focus=!!existing.focus;
 let pass=Number.isInteger(existing.pass)&&existing.pass>=1?existing.pass:1;
 let seen=new Set(Array.isArray(existing.seen)?existing.seen.filter(id=>CARD_BY_ID.has(id)):[]);
+if(importSource==='59 saved flashcard reviews'&&!Array.isArray(existing.seen)){
+  for(const c of CARDS.slice(0,59))seen.add(c.id); // Recovered reviews are already counted in pass 1.
+}
 let order=[],pos=0,answerShown=existing.answerShown!==false, idle=!!existing.idle;
 let resetPending=false;
 function randomize(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
