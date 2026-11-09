@@ -49,7 +49,18 @@ let counters=cleanCounts(existing.counts);
 if(!Object.prototype.hasOwnProperty.call(existing,'counts')){
   for(const prefix of LEGACY_KEYS){const old=readKey(prefix+dateKey());if(old){counters=mergeCounts(counters,old);importSource='earlier flashcard app';imported=true}}
   const oldArchive=readKey('ifr-drill-v3-archive');if(oldArchive&&oldArchive[dateKey()]){counters=mergeCounts(counters,oldArchive[dateKey()]);importSource='earlier flashcard app';imported=true}
-  // If no original app counts are available, recover the confirmed 59 study reviews.
+}
+let historicalSeedApplied=existing.historicalSeedApplied===true;
+if(!historicalSeedApplied){
+  // Saved deck has 59 one-time reviews, on the first 59 cards in deck order.
+  // Do not resurrect history after a previous explicit reset.
+  const wasReset=existing.idle===true&&Object.keys(counters).length===0;
+  if(!wasReset){
+    for(const c of CARDS.slice(0,59))counters[c.id]=Math.max(1,counters[c.id]||0);
+    imported=true;
+    importSource='59 saved flashcard reviews';
+  }
+  historicalSeedApplied=true;
 }
 let goal=existing.goal===5?5:3;
 let mode=['sequential','within','random'].includes(existing.mode)?existing.mode:'sequential';
@@ -64,7 +75,7 @@ function eligible(){return CARDS.filter(c=>(selected===-1||c.gi===selected)&&(!f
 function makeOrder(){const pool=eligible();if(mode==='random')return randomize(pool);if(mode==='within')return GROUPS.flatMap((g,gi)=>randomize(pool.filter(c=>c.gi===gi)));return pool}
 function completion(pool){return pool.length?Math.round(100*pool.reduce((n,c)=>n+Math.min(goal,counters[c.id]||0),0)/(goal*pool.length)):0}
 function save(){
-  const state={version:1,counts:counters,goal,mode,selected,focus,pass,seen:[...seen],order:order.map(c=>c.id),pos,answerShown,idle,updatedAt:new Date().toISOString()};
+  const state={version:1,counts:counters,goal,mode,selected,focus,pass,seen:[...seen],order:order.map(c=>c.id),pos,answerShown,idle,historicalSeedApplied,updatedAt:new Date().toISOString()};
   const ok=writeKey(KEY,state);
   $('save-status').textContent=ok?'✓ Autosaved in this browser':'Save unavailable — browser storage is blocked';
   $('save-status').classList.toggle('error',!ok);
